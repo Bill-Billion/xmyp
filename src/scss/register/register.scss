@@ -1,0 +1,32 @@
+@import "../_commont/reset.scss";
+*{margin: 0;padding: 0;}
+input{outline: none; /* border: 1px solid #999999; */}
+a{text-decoration: none;}
+/* 边框颜色变化 */
+.normal{color: #999999;}
+.warn{color:orange;}
+.error{ color: #f10;}
+.success{color: yellowgreen;}
+/* 顶部 */
+.header{height: 110px;    box-shadow: 1px -5px 10px 1px;}
+.logo_title{padding: 0 20px;font-size: 32px;color: #666 ;font-weight: bold;font-family: "方正清刻本悦宋简体";float: left; height: 34px; line-height: 34px;margin-top: 34px}
+.header_r{ float: right; margin-right: 5%;color: #999;margin-top: 55px}
+.header_r a{color: #333;}
+.header_r a:hover{color: #c81623;}
+/* 输入框 */
+.input-box{ width: 400px;height: 52px; position: relative;margin: 30px auto;border: 1px solid rgb(221, 221, 221);border-radius: 5px;transition: all 0.5s;}
+.text{width: 108px;height: 52px;float: left;  text-align: center;line-height: 52px; font-size: 14px;}
+.input-box input{ width: 290px;height: 52px;color: #333;border: none;}
+.input-box span{color: #888888;cursor: default;}
+.input-box input::-webkit-input-placeholder {color:rgb(204, 204, 204);font-size: 14px;}
+/* 外边框报错变色 */
+.warn{border: 1px solid orange;transition: all 0.5s;}
+.error{ border: 1px solid #f10;transition: all 0.5s;}
+/* 提醒字体变色 */
+.input-box label{font-size: 12px;position: absolute;left: 0;width: 100%;line-height: 20px;padding-left: 5px;}
+.normal{display: none;transition: all 0.5s;}
+.warn_l{color: orange;}
+.error_l{color: #f10;}
+/* 注册按钮 */
+.btn{height: 52px;width: 400px;color: white;background: #333;border: none;cursor: pointer;border-radius: 5px;margin: 20px auto;display: inherit;}
+.selector{outline: none;width: 290px;height: 52px;color:rgb(204, 204, 204);border: none;}

@@ -1,0 +1,71 @@
+@import "../_commont/reset.scss";
+*{margin: 0;padding: 0;}
+body {font-size: 14px;color: #333;}
+a,button{outline: none}
+a{text-decoration: none}
+/* 右浮 */
+.fr{
+    float: right;
+}
+/* 左浮 */
+.fl { 
+    float: left;
+}
+/* 顶部导航 */
+.m-site-top, .m-site-top a {
+    color: #e7e7e7;
+}
+.m-site-top {
+    height: 48px;
+    background: #333;
+    font-size: 14px;
+    position: relative; 
+    z-index: 105;
+}
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+.m-site-top .m-line {
+    border-color: #666;
+    margin: 17px 3px 0 6px;
+}
+.m-line {
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    border-right: 1px solid #e7e7e7;
+}
+.m-site-top .site-item {
+    position: relative;
+    margin-left: 5px;
+    text-align: center;
+}
+.m-site-top .m-help {
+    position: relative;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 8px;
+    margin-left: 11px;
+}
+.m-site-top .m-no-login {
+    margin-right: 8px;
+}
+.m-site-top .m-no-login, .m-site-top .m-user {
+    height: 48px;
+    line-height: 48px;
+}
+.m-site-top .m-no-login a {
+    margin-left: 8px;
+}
