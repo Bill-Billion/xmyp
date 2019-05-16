@@ -10,22 +10,47 @@
 
 ```
 .
-├── XMYP
-│	├── css
-│	│	├── admin.css
-│	│	├── index.css
-│	│	├── login.css
-│	│	├── register.css
-│	├── js
-│	│	├── admin.js
+├── conf
+│	├── index.js
+├── dist
+│	├── images
+│	├── scripts
 │	│	├── index.js
 │	│	├── login.js
 │	│	├── register.js
+│	├── stylesheets
+│	│	├── index.css
+│	│	├── login.css
+│	│	├── register.css
+│	├── index.html
+│	├── login.html
+│	├── register.html
+├── src
+│	├── images
+│	├── scripts
+│	│	├── index.js
+│	│	├── login.js
+│	│	├── register.js
+│	├── scss
+│	│	├── _commont
+│	│	│	├──reset.scss
+│	│	├── index
+│	│	│	├──index.scss
+│	│	├── login
+│	│	│	├──login.scss
+│	│	├── register
+│	│	│	├──register.scss
+│	├── index.html
+│	├── login.html
+│	├── register.html
+├── utils
+│	├── index.js
+├── .gitignore
 ├── README.md
-├── admin.html
-├── index.html
-├── login.html
-├── register.html
+├── build.js
+├── gulpfile.js
+├── package-lock.json
+├── package.json
 ```
 
 ----
@@ -41,10 +66,6 @@
 - [ ] 商品详情页
 - [ ] 商品管理界面前端
 - [ ] 商品管理界面后端
-
----
-
-* 第一次提交更新了项目的主体框架，整体项目尚未开始设计
 
 ---
 
