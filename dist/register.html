@@ -5,8 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>注册页</title>
+    <link rel="stylesheet" href="./stylesheets/register.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div class="header">
+            <div class="logo_title">用户注册</div>
+            <div class="header_r">
+                <span>已有账号？</span>
+                <a href="./login.html">请登陆></a>
+            </div>
+        </div>
+        <form id="register-form">
+            <div class="input-box" >
+                <div class="text">
+                    <span>用 &nbsp&nbsp户&nbsp&nbsp   名：</span>
+                </div>
+                <input type="text" id="usr" placeholder="您的账户名和登录名">
+                <label class="normal"></label>
+            </div>
+            <div class="input-box">
+                <div class="text">
+                    <span>设 置 密 码：</span>
+                </div>
+                <input type="password" id="pwd" placeholder="建议使用两种或两种以上的字符组合">
+                <label class="normal"></label>
+            </div>
+            <div class="input-box">
+                    <div class="text">
+                        <span>确 认 密 码：</span>
+                    </div>
+                    <input type="password" id="r_pwd" placeholder="请再次输入密码">
+                    <label class="normal"></label>
+            </div>
+        </form>
+        <button id="btn" class="btn" >立即注册</button>
+    </div>
 </body>
+<script src="./scripts/common.js"></script>
+<script src="./scripts/register.js"></script>
 </html>

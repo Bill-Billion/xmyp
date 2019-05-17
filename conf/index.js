@@ -9,6 +9,9 @@ module.exports = {
             },
             "register" : {
                    src : "./src/scripts/register/"
+            },
+            "common" : {
+                   src : "./src/scripts/libs/"
             }
       },
       scss : {

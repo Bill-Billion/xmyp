@@ -71,9 +71,9 @@
 
 #### 使用说明
 
-`npm install`
-
-克隆到本地运行index.html即可
+*安装运行环境 `npm install`
+*启动自动打包工具 `npm start`
+*建立工程化文件 `npm run build`
 
 1. 建立目录结构，在conf文件夹下的json之中配置自己的开发路径
 

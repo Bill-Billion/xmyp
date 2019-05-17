@@ -75,7 +75,7 @@ gulp.task("images",()=>{
 
 init();
 
-
+console.log(scriptsTaskArray,scripts);
 gulp.task("scripts",scriptsTaskArray);
 
 console.log(scssTaskArray,scssJSON);
