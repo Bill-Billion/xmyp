@@ -47,7 +47,17 @@ li, ol, ul { list-style: none; }
 .m-header .tab-list { float: left; width: 420px; overflow: hidden;}
 .m-header .tab-list li.tab-item { float: left; margin-right: 32px; height: 51px; line-height: 57px; font-size: 18px; color: #666; -webkit-transition: color .2s ease;-o-transition: color .2s ease;transition: color .2s ease;}
 //搜索部分
-
+.m-header .m-search {float: right;}
+.m-search {width: 296px;}
+.search-form { position: relative; width: 246px; padding-left: 35px; padding-top: 9px; height: 32px; border-bottom: 1px solid #e7e7e7; -webkit-transition: all .3s; -o-transition: all .3s; transition: all .3s; }
+.search-form .search-icon { position: absolute; left: -4px; top: 10px; display: block; z-index: 2; text-align: center; outline: 0; font-size: 14px; }
+.search-form .m-icons-search-hover { width: 30px; height: 30px; background-position: 0 -1458px; }
+.search-input-con { z-index: 1; width: 245px; height: 32px; line-height: 32px; }
+.search-input-con input { width: 100%; border: none; color: #333; font-size: 14px; outline: 0; -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s;}
+.search-input-con input::-webkit-input-placeholder {color: rgb(204,204,204);}
+.m-card-wrap { position: absolute; right: 6px; top: 18px;}
+.m-card-mini { position: relative; width: 30px; }
+.m-icons-cart-hover { width: 30px; height: 30px; background-position: 0 -948px; }
 //banner图部分
 .banner-nav {width: 1080px;margin: 0 auto;height: 358px;}
 .nav-container { position: relative; height: 338px; background-color: #845f3f; padding: 10px 0; width: 221px; float: left;z-index: 2;}
@@ -58,3 +68,28 @@ li, ol, ul { list-style: none; }
 .nav-container .nav-list .nav-item:hover{background: #684b35; color: #f1ede9}
 .banner-nav .banner-box { width: 859px;float: left;}
 .m-banner  img { width: 859px;height: 358px;}
+//热卖部分
+.hot-sell .container { padding-top: 30px; height: 100%; border-bottom-width: 1px; border-bottom-style: solid;}
+.hot-sell ul {width: 1080px; height: 148px; overflow: hidden; padding-bottom: 10px; }
+.hot-sell ul li{float: left;margin-right: 107px}
+.m-product-image-container { width: 130px; height: 120px; overflow: hidden; }
+.m-product-image-container .img-container {padding: 25px 25px 15px;width: 80px;height: 80px; overflow: hidden; display: inline-block; }
+.m-product-image-container .img-container img{width: 80px;height: 80px}
+.hot-sell ul li .title { font-size: 14px; margin-top: 4px; width: 130px; text-align: center; color: rgb(85,86,102); }
+//右侧浮动条
+.m-icons {display: inline-block; background-image: url(https://shop.io.mi-img.com/static/h5/static3/media/yp-icons.2bf57ccf.png);}
+.m-fixedBar { position: fixed; top: 220px; right: 10px; z-index: 999; width: 71px; padding: 0 5px; background: #fff; -webkit-box-shadow: 0 0 18px rgba(0,0,0,.1); box-shadow: 0 0 18px rgba(0,0,0,.1);}
+.m-fixedBar li { padding: 10px; font-size: 12px; text-align: center; border-bottom: 1px solid #e7e7e7; cursor: pointer; position: relative; }
+.m-icons-service-fixed { width: 30px; height: 30px; background-position: 0 -1628px;}
+.m-icons-download { width: 30px; height: 30px; background-position: 0 -1254px;}
+.m-icons-gift { width: 30px; height: 30px; background-position: 0 -778px;}
+.m-icons-wx-chat { width: 30px; height: 30px; background-position: 0 -982px; }
+.m-icons-top { width: 30px; height: 30px; background-position: 0 -1288px; }
+//有品推荐
+.h-recommend { margin-top: 35px;}
+.h-sec-top { position: relative; z-index: 99; margin-bottom: 20px;}
+.h-sec-top .h-subTit { color: #333; font-size: 28px; font-weight: 400; }
+.h-sec-top .h-subTit span { margin-left: 4px; font-size: 14px; color: #999; }
+.no-ml { margin-left: 0; }
+.home-good-item { float: left; width: 266px; margin-left: 5px;}
+.h-recommend .item-inner { position: relative; height: 230px; background: #f3f0e9; }
