@@ -88,7 +88,7 @@ gulp.task("gulp-dev",["html","scripts","scss","images","connect","watch"]);
 
 // 初始化整个配置文件;
 
-require("./build");
+require("./build"); 
 
 
 
