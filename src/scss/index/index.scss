@@ -8,12 +8,13 @@ li, ol, ul { list-style: none; }
 .fr{ float: right;}
 .fl { float: left; }
 img { vertical-align: middle; border: none;}
-
+.container { width: 1080px; margin: 0 auto; }
+.clearfix{overflow: hidden;}
 //局部样式
 /* 顶部导航 */
 .m-site-top, .m-site-top a { color: #e7e7e7; }
 .m-site-top { height: 48px; background: #333; font-size: 14px; position: relative; z-index: 105; min-width: 1080px; }
-.container { width: 1080px; margin: 0 auto; }
+
 
 .m-site-top .m-line { border-color: #666; margin: 17px 3px 0 6px; }
 .m-line { display: inline-block; height: 16px; vertical-align: middle; border-right: 1px solid #e7e7e7; }
@@ -94,22 +95,24 @@ img { vertical-align: middle; border: none;}
 .h-sec-top .h-subTit span { margin-left: 4px; font-size: 14px; color: #999; }
 .home-good-item { float: left; width: 266px; margin-left: 5px;}
 .no-ml{ margin-left: 0; }
-.h-recommend .item-inner { position: relative; height: 230px; background: #f3f0e9; }
+.h-recommend .home-good-item .item-inner { position: relative; height: 230px; background: #f3f0e9; }
 .h-recommend .pro-text { position: relative; z-index: 6; padding-top: 23px; padding-left: 15px;}
 .h-recommend .pro-info { color: rgb(51,51,51); font-size: 20px; line-height: 24px; height: 24px; }
 .h-recommend .pro-desc { color: rgb(153,153,153); font-size: 16px; line-height: 20px; height: 20px; margin-top: 8px; }
 .h-recommend .pro-img { position: absolute; right: 45px; bottom: 10px; width: 175px; height: 117px; z-index: 4; }
 //小米众筹
-.h-crowdfounding { margin-top: 35px;}
+.h-sec-top .h-more { position: absolute; right: 0; top: 6px; height: 30px; color: #999; cursor: pointer; }
+.h-crowdfounding { margin-top: 35px;height: 302px}
 .home-good-item-big {width: 537px;}
-.home-good-item-big .item-inner { position: relative; width: 537px; height: 210px; background: #f3f0e9; }
-.home-good-item-big .pro-text { position: relative; z-index: 6; padding-top: 25px; padding-left: 23px;}
-.home-good-item-big .pro-info { color: #333; margin-top: 0; font-size: 20px; line-height: 24px; height: 24px; }
-.home-good-item-big .pro-desc { color: #999; font-size: 16px; line-height: 20px; height: 20px; margin-top: 8px; }
-.home-good-item-big .pro-price { font-size: 24px; line-height: 28px; height: 28px; overflow: hidden; color: #a92112; margin-top: 16px; }
-.home-good-item-big .pro-price .tag { font-size: 15px; vertical-align: top; margin-right: 7px; }
+.h-sec-main .home-good-item-big .item-inner { position: relative; width: 537px; height: 210px; background: #f3f0e9; }
+.home-good-item .item-inner { position: relative; width: 266px; height: 210px; background: #f3f0e9;}
+.h-sec-main .home-good-item-big .pro-text { position: relative; z-index: 6; padding-top: 25px; padding-left: 23px;}
+.h-sec-main .home-good-item-big .pro-info { color: #333; margin-top: 0; font-size: 20px; line-height: 24px; height: 24px; }
+.h-sec-main .home-good-item-big .pro-desc { color: #999; font-size: 16px; line-height: 20px; height: 20px; margin-top: 8px; }
+.h-sec-main .home-good-item-big .pro-price { font-size: 24px; line-height: 28px; height: 28px; overflow: hidden; color: #a92112; margin-top: 16px; }
+.h-sec-main .home-good-item-big .pro-price .tag { font-size: 15px; vertical-align: top; margin-right: 7px; }
 .pro-flag, .pro-ori, .pro-unit { font-size: 12px; }
-.home-good-item-big .pro-img, .home-good-item-big .pro-img1 { position: absolute; right: 15px; bottom: 10px; width: 215px; height: 215px; z-index: 4; }
+.h-sec-main .home-good-item-big .pro-img, .home-good-item-big .pro-img1 { position: absolute; right: 15px; bottom: 10px; width: 215px; height: 215px; z-index: 4; }
 .m-progress-wrap-con .m-bar-con .m-bar { width: auto;height: 3px; background: url(https://shop.io.mi-img.com/static/h5/static3/media/bar.64e546f1.jpg) 0 0 no-repeat;}
 .m-progress-wrap-con .m-progress-info { margin-top: 10px;}
 .m-progress-wrap-con .m-progress-info .m-suppory { color: #999; font-size: 15px; margin-left: 20px;}
@@ -120,5 +123,37 @@ img { vertical-align: middle; border: none;}
 .progress-tag-con .common-tag-text { padding: 0 6px; color: #fff; font-size: 13px; line-height: 18px;}
 .m-progress-wrap-con .m-progress-info .m-persent { margin-right: 15px; color: #a92112; font-size: 18px; }
 .m-progress-wrap-con .m-progress-info .m-num-flag {font-size: 11px;}
-.home-good-item .item-inner { position: relative; width: 266px; height: 210px; background: #f3f0e9;}
-.home-good-item .pro-img, .home-good-item .pro-img1 {position: absolute; right: 15px; bottom: 10px; width: 130px; height: 130px; z-index: 4; }
+.home-good-item .pro-text { position: relative; z-index: 6; padding-top: 25px; padding-left: 23px;}
+.home-good-item .pro-info { color: #333; margin-top: 0; font-size: 20px; line-height: 24px; height: 24px; }
+.home-good-item .pro-desc { color: #999; font-size: 16px; line-height: 20px; height: 20px; margin-top: 8px; }
+.home-good-item .pro-price { font-size: 24px; line-height: 28px; height: 28px; overflow: hidden; color: #a92112; margin-top: 16px; }
+.home-good-item .pro-price .tag { font-size: 15px; vertical-align: top; margin-right: 7px; }
+.pro-img1 { position: absolute; right: 15px; bottom: 10px; width: 130px; height: 130px; z-index: 4; }
+.home-good-item .pro-price { font-size: 20px; line-height: 24px; height: 24px; overflow: hidden; color: #a92112; margin-top: 11px; }
+.home-good-item .pro-price .tag { font-size: 11px; vertical-align: top; margin-right: 5px; }
+//限时购
+.p-trap-wrap{ padding-top: 40px;height: 401px}
+.swiper-container { position: relative; overflow: hidden; margin: 0 auto; z-index: 2; }
+.h-more .more-icon { height: 30px; width: 30px;}
+.h-more span { position: relative; bottom: 9px; font-size: 14px;}
+.m-icons-more { width: 30px; height: 30px; background-position: 0 -1118px;}
+.timestr { margin-left: 12px; }
+.timestr img{ width: 18px; height: 18px; vertical-align: -15%;}
+.timestr span { margin-left: 3px; font-size: 18px; color: #a92112;}
+.countdown { height: 23px; margin-left: 6px; position: relative; top: 12px;}
+.h-countdown-wrap .time-item-home { display: inline-block; width: 23px; height: 23px; line-height: 23px; margin: 0; color: #fff; text-align: center; font-size: 15px; background: #b04337;}
+.h-countdown-wrap .m-countdown-dot-home { display: inline-block; font-size: 15px; color: #b04337; }
+//限时购-图片滚动
+.swiper-container { position: relative; overflow: hidden; margin: 0 auto; z-index: 2; }
+.swiper-wrapper { transform: translate3d(0px, 0px, 0px); transition-duration: 0ms; position: relative; width: 100%; height: 100%; z-index: 3; display: flex; box-sizing: content-box; }
+.swiper-slide { flex-shrink: 0; width: 100%; height: 100%; position: relative; }
+//限时购-图片滚动-右移
+.swiper-button-next { right: 10px; }
+.swiper-button-next, .swiper-button-prev { position: absolute; top: 50%; margin-top: -22px; z-index: 10; cursor: pointer; }
+.m-icons-next-hover { width: 38px; height: 38px; background-position: 0 -1840px;}
+//限时购-图片滚动-左移
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {opacity: .35; cursor: auto; }
+
+.swiper-button-prev { left: 10px;}
+.swiper-button-next, .swiper-button-prev { position: absolute; top: 50%; margin-top: -22px; z-index: 10; cursor: pointer;}
+.m-icons-forward-hover { width: 38px; height: 38px; background-position: 0 -1924px;}
