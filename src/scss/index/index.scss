@@ -7,6 +7,7 @@ a{text-decoration: none}
 li, ol, ul { list-style: none; }
 .fr{ float: right;}
 .fl { float: left; }
+img { vertical-align: middle; border: none;}
 
 //局部样式
 /* 顶部导航 */
@@ -87,9 +88,37 @@ li, ol, ul { list-style: none; }
 .m-icons-top { width: 30px; height: 30px; background-position: 0 -1288px; }
 //有品推荐
 .h-recommend { margin-top: 35px;}
+.m-sec-main{width: 1080px;height: 230px;}
 .h-sec-top { position: relative; z-index: 99; margin-bottom: 20px;}
 .h-sec-top .h-subTit { color: #333; font-size: 28px; font-weight: 400; }
 .h-sec-top .h-subTit span { margin-left: 4px; font-size: 14px; color: #999; }
-.no-ml { margin-left: 0; }
 .home-good-item { float: left; width: 266px; margin-left: 5px;}
+.no-ml{ margin-left: 0; }
 .h-recommend .item-inner { position: relative; height: 230px; background: #f3f0e9; }
+.h-recommend .pro-text { position: relative; z-index: 6; padding-top: 23px; padding-left: 15px;}
+.h-recommend .pro-info { color: rgb(51,51,51); font-size: 20px; line-height: 24px; height: 24px; }
+.h-recommend .pro-desc { color: rgb(153,153,153); font-size: 16px; line-height: 20px; height: 20px; margin-top: 8px; }
+.h-recommend .pro-img { position: absolute; right: 45px; bottom: 10px; width: 175px; height: 117px; z-index: 4; }
+//小米众筹
+.h-crowdfounding { margin-top: 35px;}
+.home-good-item-big {width: 537px;}
+.home-good-item-big .item-inner { position: relative; width: 537px; height: 210px; background: #f3f0e9; }
+.home-good-item-big .pro-text { position: relative; z-index: 6; padding-top: 25px; padding-left: 23px;}
+.home-good-item-big .pro-info { color: #333; margin-top: 0; font-size: 20px; line-height: 24px; height: 24px; }
+.home-good-item-big .pro-desc { color: #999; font-size: 16px; line-height: 20px; height: 20px; margin-top: 8px; }
+.home-good-item-big .pro-price { font-size: 24px; line-height: 28px; height: 28px; overflow: hidden; color: #a92112; margin-top: 16px; }
+.home-good-item-big .pro-price .tag { font-size: 15px; vertical-align: top; margin-right: 7px; }
+.pro-flag, .pro-ori, .pro-unit { font-size: 12px; }
+.home-good-item-big .pro-img, .home-good-item-big .pro-img1 { position: absolute; right: 15px; bottom: 10px; width: 215px; height: 215px; z-index: 4; }
+.m-progress-wrap-con .m-bar-con .m-bar { width: auto;height: 3px; background: url(https://shop.io.mi-img.com/static/h5/static3/media/bar.64e546f1.jpg) 0 0 no-repeat;}
+.m-progress-wrap-con .m-progress-info { margin-top: 10px;}
+.m-progress-wrap-con .m-progress-info .m-suppory { color: #999; font-size: 15px; margin-left: 20px;}
+.m-progress-wrap-con .m-progress-info .m-suppory .sup-num {margin-right: 6px; color: #a92112; font-size: 18px;}
+.progress-tag-con { text-align: center; height: 18px; padding-top: 2px; padding-bottom: 2px; overflow: hidden; display: inline-block;}
+.progress-tag-con .common-tag { display: inline-block; height: 18px; margin-left: 3px;margin-top: 2px;}
+.progress-tag-con .common-tag-img, .progress-tag-con .common-tag-text { height: 18px; border-radius: 2px; vertical-align: bottom;}
+.progress-tag-con .common-tag-text { padding: 0 6px; color: #fff; font-size: 13px; line-height: 18px;}
+.m-progress-wrap-con .m-progress-info .m-persent { margin-right: 15px; color: #a92112; font-size: 18px; }
+.m-progress-wrap-con .m-progress-info .m-num-flag {font-size: 11px;}
+.home-good-item .item-inner { position: relative; width: 266px; height: 210px; background: #f3f0e9;}
+.home-good-item .pro-img, .home-good-item .pro-img1 {position: absolute; right: 15px; bottom: 10px; width: 130px; height: 130px; z-index: 4; }
