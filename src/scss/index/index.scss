@@ -14,8 +14,6 @@ img { vertical-align: middle; border: none;}
 /* 顶部导航 */
 .m-site-top, .m-site-top a { color: #e7e7e7; }
 .m-site-top { height: 48px; background: #333; font-size: 14px; position: relative; z-index: 105; min-width: 1080px; }
-
-
 .m-site-top .m-line { border-color: #666; margin: 17px 3px 0 6px; }
 .m-line { display: inline-block; height: 16px; vertical-align: middle; border-right: 1px solid #e7e7e7; }
 .m-site-top .site-item { position: relative; margin-left: 5px; text-align: center;}
@@ -40,6 +38,7 @@ img { vertical-align: middle; border: none;}
 // logo & 搜索 
 .m-header {margin: auto; position: relative; height: 51px; width: 1080px; z-index: 101; padding-top: 20px; margin-bottom: 5px; background-color: #fff; }
 .m-header-top {position: relative; padding-right: 40px; z-index: 9;}
+.m-header-fixed { position: fixed; top: 0; width: 100%; z-index: 999; padding-top: 0; border-bottom: 1px solid #eee; background-color: #fff;left: 0;}
 //logo部分
 .m-header .m-logo {float: left;width: 123px;height: 51px;background: url(https://shop.io.mi-img.com/static/h5/static3/media/logo.d1484e61.png) 50% no-repeat;background-size: 100%;}
 .m-logo {width: 100px;height: 50px;line-height: 50px;text-align: center;font-size: 12px;}
@@ -68,8 +67,13 @@ img { vertical-align: middle; border: none;}
 .nav-container .nav-list .nav-item a{color: #fff}
 .nav-container .nav-list .nav-item a:hover{color: rgb(202, 162, 127)}
 .nav-container .nav-list .nav-item:hover{background: #684b35; color: #f1ede9}
-.banner-nav .banner-box { width: 859px;float: left;}
+.banner-nav .banner-box { width: 859px;float: left;overflow: hidden}
 .m-banner  img { width: 859px;height: 358px;}
+.m-banner, .m-banner .m-ban-con {position: relative;}
+.m-banner .swipe-item{width: 859px}
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {bottom: 10px;left: 0;width: 100%;}
+.swiper-pagination { position: absolute; text-align: center; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; -webkit-transform: translateZ(0);transform: translateZ(0);z-index: 10; left: 0;bottom: 10px;width: 100%}
+.swiper-pagination-bullet { width: 8px; height: 8px; display: inline-block; border-radius: 500px; cursor: pointer; color: transparent; outline: 0; border: 1px solid #cecece; background: #fff; -webkit-transition: all .5s; -o-transition: all .5s; transition: all .5s;}
 //热卖部分
 .hot-sell .container { padding-top: 30px; height: 100%; border-bottom-width: 1px; border-bottom-style: solid;}
 .hot-sell ul {width: 1080px; height: 148px; overflow: hidden; padding-bottom: 10px; }
@@ -165,6 +169,7 @@ img { vertical-align: middle; border: none;}
 .m-goods-item-container .market-price .m-num {font-size: 14px;}
 //限时购-图片滚动-右移
 .swiper-button-next { right: 10px; }
+// .m-icons-next-hover:hover{background-color: rgb(132,95,63)}
 .swiper-button-next, .swiper-button-prev { position: absolute; top: 50%; margin-top: -22px; z-index: 10; cursor: pointer; }
 .m-icons-next-hover { width: 38px; height: 38px; background-position: 0 -1840px;}
 //限时购-图片滚动-左移
