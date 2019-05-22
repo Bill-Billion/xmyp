@@ -80,7 +80,7 @@ $(function () {
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="pro-desc">${item.attr_ext.custom_summary}</p>
+                                    <p class="pro-desc" style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">${item.summary}</p>
                                 </div>
                                 ${color_c}
                                 <div class="category-box">

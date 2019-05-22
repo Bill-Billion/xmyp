@@ -18,7 +18,7 @@ $(function(){
         $(".h-new-sec .swiper-wrapper"),$(".h-new-sec .swiper-button-next"),$(".h-new-sec .swiper-button-prev"),$(".h-new-sec .swiper-slide"),
         $(".h-hot-sec .swiper-wrapper"),$(".h-hot-sec .swiper-button-next"),$(".h-hot-sec .swiper-button-prev"),$(".h-hot-sec .swiper-slide")
     ]
-    // console.log(banner_img.length)
+    console.log(banner_img.length)
     function bannerNext(evt){
         count1++;
         evt.css({

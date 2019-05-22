@@ -25,7 +25,8 @@ $(function () {
       hot_slide = _ref[12],
       hot_next = _ref[13],
       hot_prev = _ref[14],
-      hot_goods = _ref[15]; // console.log(banner_img.length)
+      hot_goods = _ref[15];
+  console.log(banner_img.length);
 
   function bannerNext(evt) {
     count1++;
@@ -221,7 +222,7 @@ $(function () {
         if (count % 4 == 1) {
           html += "<div class=\"m-goods-item-container  pro-item-category\" data-src=\"/detail?gid=".concat(item.gid, "\" data-target=\"_blank\" style=\"margin-left:0\">\n                                <div class=\"category-img-container\">\n                                    <div class=\"product-img\">\n                                        <div class=\"m-product-image-container\" data-src=\"").concat(item.imgs.img800, "\" style=\"width: 264px; height: 198px;\">\n                                            <div class=\"img-container\" style=\"padding: 45px 70px 28px; width: 124px; height: 125px;\">\n                                                <img src=\"").concat(item.imgs.img800, "\" data-src=\"").concat(item.imgs.img800, "\" alt=\"").concat(item.name, "\" style=\"height: 125px; width: 125px; margin-left: -0.5px;\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <p class=\"pro-desc\">").concat(item.attr_ext.custom_summary, "</p>\n                                </div>\n                                ").concat(color_c, "\n                                <div class=\"category-box\">\n                                    <div class=\"m-goods-common-tag-con\"></div>\n                                    <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                    <p class=\"pro-price\">\n                                        <span class=\"pro-unit\">\xA5</span>\n                                        <span class=\"m-num\">").concat(item.price / 100, "</span>\n                                    </p>\n                                </div>\n                            </div>");
         } else {
-          html += "<div class=\"m-goods-item-container  pro-item-category\" data-src=\"/detail?gid=".concat(item.gid, "\" data-target=\"_blank\">\n                                <div class=\"category-img-container\">\n                                    <div class=\"product-img\">\n                                        <div class=\"m-product-image-container\" data-src=\"").concat(item.imgs.img800, "\" style=\"width: 264px; height: 198px;\">\n                                            <div class=\"img-container\" style=\"padding: 45px 70px 28px; width: 124px; height: 125px;\">\n                                                <img src=\"").concat(item.imgs.img800, "\" data-src=\"").concat(item.imgs.img800, "\" alt=\"").concat(item.name, "\" style=\"height: 125px; width: 125px; margin-left: -0.5px;\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <p class=\"pro-desc\">").concat(item.attr_ext.custom_summary, "</p>\n                                </div>\n                                ").concat(color_c, "\n                                <div class=\"category-box\">\n                                    ").concat(a, "\n                                    <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                    <p class=\"pro-price\">\n                                        <span class=\"pro-unit\">\xA5</span>\n                                        <span class=\"m-num\">").concat(item.price / 100, "</span>\n                                    </p>\n                                </div>\n                            </div>");
+          html += "<div class=\"m-goods-item-container  pro-item-category\" data-src=\"/detail?gid=".concat(item.gid, "\" data-target=\"_blank\">\n                                <div class=\"category-img-container\">\n                                    <div class=\"product-img\">\n                                        <div class=\"m-product-image-container\" data-src=\"").concat(item.imgs.img800, "\" style=\"width: 264px; height: 198px;\">\n                                            <div class=\"img-container\" style=\"padding: 45px 70px 28px; width: 124px; height: 125px;\">\n                                                <img src=\"").concat(item.imgs.img800, "\" data-src=\"").concat(item.imgs.img800, "\" alt=\"").concat(item.name, "\" style=\"height: 125px; width: 125px; margin-left: -0.5px;\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <p class=\"pro-desc\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.summary, "</p>\n                                </div>\n                                ").concat(color_c, "\n                                <div class=\"category-box\">\n                                    ").concat(a, "\n                                    <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                    <p class=\"pro-price\">\n                                        <span class=\"pro-unit\">\xA5</span>\n                                        <span class=\"m-num\">").concat(item.price / 100, "</span>\n                                    </p>\n                                </div>\n                            </div>");
         }
       });
       $(".m-product-list")[0].innerHTML = html;
@@ -273,6 +274,18 @@ $(function () {
   setTimeout(function () {
     lazyload();
   }, 10);
+});
+$(function () {
+  var _ref2 = [$(".nav-list"), $(".nav-item"), $(".nav-detail")],
+      nav_list = _ref2[0],
+      nav_item = _ref2[1],
+      nav_detail = _ref2[2];
+  console.log(nav_item);
+  nav_item.hover(function () {
+    nav_detail.addClass("show");
+  }, function () {
+    nav_detail.removeClass("show");
+  });
 }); //搜索栏吸顶
 
 $(function () {
