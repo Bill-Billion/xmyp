@@ -180,7 +180,78 @@ img { vertical-align: middle; border: none;}
 //每日新品
 .h-new-sec { margin-top: 60px; padding-bottom: 28px;}
 .h-new-sec .m-sec-main { position: relative; height:375px;}
+.h-hot-sec { margin-top: 60px; padding-bottom: 28px;}
+.h-hot-sec .m-sec-main { position: relative; height:375px;}
 .new-item-container .m-goods-common-box { padding-top: 13px;}
 .m-goods-common-box { padding-top: 8px; padding-bottom: 10px;}
 .m-goods-common-box .pro-info { color: #333; margin-top: 8px; font-size: 19px; line-height: 23px; height: 23px;}
 .m-goods-common-box .pro-desc {color: #666;font-size: 14px;line-height: 18px;height: 18px;margin-top: 8px;}
+//专属推荐
+.h-category-sec { margin-top: 50px;}
+.category-img-container {width: 100%;}
+.h-category-sec .pro-item-category { width: 264px; padding-bottom: 0; margin-bottom: 5px; border: 1px solid #e7e7e7; background: none;}
+.category-img-container .product-img {width: 100%; height: 198px; overflow: hidden;}
+.category-img-container .pro-desc { color: #845f3f; font-size: 16px; line-height: 20px; height: 20px; margin-top: 0;}
+.m-goods-pro-tag-con {
+    position: absolute;
+    padding: 3px;
+    left: 8px;
+    top: 8px;
+    width: 16px;
+    line-height: 18px;
+    font-size: 15px;
+    text-align: center;
+    word-wrap: break-word;
+    border-radius: 4px;
+    border: 1px solid #9f8052;
+    background-color: transparent;
+    color: #9f8052;
+}
+.category-box {
+    margin-top: 18px;
+    padding: 13px 0 10px;
+    background: #f8f8f8;
+}
+.m-goods-common-tag-con {
+    text-align: center;
+    height: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    overflow: hidden;
+}
+.m-goods-item-container .common-tag-text {
+    padding: 0 6px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+    vertical-align: bottom;
+}
+
+.m-goods-item-container .common-tag {
+    display: inline-block;
+    height: 20px;
+    margin-left: 8px;
+}
+.category-box .pro-info {
+    color: #333;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+}
+.category-box .pro-price {
+    margin-top: 11px;
+    margin-bottom: 0;
+    height: 22px;
+    line-height: 22px;
+    color: #a92112;
+}
+.category-box .pro-price .pro-unit {
+    font-size: 13px;
+    margin-right: 5px;
+}
+.category-box .pro-price .m-num {
+    font-size: 20px;
+}
