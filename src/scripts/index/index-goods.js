@@ -20,7 +20,7 @@ $(function () {
     var html="";
     var index=1;
     $.ajax({
-        url: "youpin/scripts/xmyp.json",//json文件位置
+        url: "scripts/xmyp.json",//json文件位置
         type: "GET",//请求方式为get
         dataType: "json", //返回数据格式为json
         success: function(data) {
