@@ -191,7 +191,7 @@ $(function () {
   var html = "";
   var index = 1;
   $.ajax({
-    url: "../scripts/xmyp.json",
+    url: "youpin/scripts/xmyp.json",
     //json文件位置
     type: "GET",
     //请求方式为get
