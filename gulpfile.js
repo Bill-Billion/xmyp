@@ -73,6 +73,10 @@ gulp.task("images",()=>{
             .pipe(gulp.dest('dev/images'))
 })
 
+gulp.task("json",()=>{
+      return gulp.src('./src/json/*')
+            .pipe(gulp.dest('dev/scripts'))
+})
 init();
 
 console.log(scriptsTaskArray,scripts);
@@ -81,7 +85,7 @@ gulp.task("scripts",scriptsTaskArray);
 console.log(scssTaskArray,scssJSON);
 gulp.task('scss', scssTaskArray);
 
-gulp.task("gulp-dev",["html","scripts","scss","images","connect","watch"]);
+gulp.task("gulp-dev",["html","scripts","scss","images","connect","watch","json"]);
 
 
 // fs模块的帮助 => 取出文件夹下所有文件的名称;

@@ -50,12 +50,16 @@ gulp.task("images-build",()=>{
             .pipe(gulp.dest('dist/images'))
 })
 
+gulp.task("json-build",()=>{
+      return gulp.src('./src/json/*')
+            .pipe(gulp.dest('dist/scripts'))
+})
 init();
 
 gulp.task("scripts-build",scriptsTaskArray)
 gulp.task('scss-build', scssTaskArray);
 
-gulp.task("build",["html-build","scripts-build","scss-build","images-build"]);
+gulp.task("build",["html-build","scripts-build","scss-build","images-build","json-build"]);
 
 // fs模块的帮助 => 取出文件夹下所有文件的名称;
 
