@@ -21,6 +21,7 @@
             "name": "茶水分离随行杯",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/47cf30adad791ed042ce207092c30872.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "时尚颜值，食品可接触材料，杯体防摔防烫，300ml容量",
             "url": "http://m.youpin.mi.com/detail?gid=103185"
@@ -46,6 +47,7 @@
             "name": "青荷防蚊网",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/8ef7f5fe303b32d64475a2f07d175faa.png",
             "price": 5900,
+            "style" :"颜色" ,
             "price_min": 5900,
             "summary": "不用电长效驱蚊100天，可开门窗使用，不惧日晒雨淋",
             "url": "http://m.youpin.mi.com/detail?gid=106496"
@@ -71,6 +73,7 @@
             "name": "随身驱蚊器",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/a5fdf160f39f41c5de041d00f6de5c61.png",
             "price": 5400,
+            "style" :"颜色" ,
             "price_min": 5400,
             "summary": "离心式挥发，长效驱蚊，随身便携",
             "tags": [
@@ -134,6 +137,7 @@
             "name": "法式香氛花园香薰",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/63f6f5d420fad3c72de995fac720d980.png",
             "price": 6900,
+            "style" :"颜色" ,
             "price_min": 6900,
             "summary": "原木藤条 活化萃取  愉悦身心",
             "tags": [
@@ -195,6 +199,7 @@
             "name": "小米WiFi放大器Pro",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/100730_1k6du62hrpr3w.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "轻松扩展WiFi信号",
             "tags": [
@@ -238,6 +243,7 @@
             "name": "左点养生艾饼",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/f457c576b1e5a0ffb26d6b3919d660fd.png",
             "price": 5800,
+            "style" :"颜色" ,
             "price_min": 5800,
             "summary": "地道陈艾，醇而不烈，黄而不艳，柔而不糙",
             "url": "http://m.youpin.mi.com/detail?gid=106367"
@@ -263,6 +269,7 @@
             "name": "清新花园香水套装15ml*3",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/71022e9650210c57b0c02132aa1dec1f.png",
             "price": 2900,
+            "style" :"颜色" ,
             "price_min": 2900,
             "summary": "多样芬芳，清新持久，甄选花材，匠心调制",
             "tags": [
@@ -308,6 +315,7 @@
             "name": "经典帆布硫化鞋",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/101741_db6543042030a8db0a9091d76a828107.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "透气帆布鞋面，加厚EVA鞋垫，特质楦头",
             "tags": [
@@ -371,6 +379,7 @@
             "name": "车载出风口香薰 高端款",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/cb51b4cc177d5a9e86660bc484c16722.png",
             "price": 5900,
+            "style" :"颜色" ,
             "price_min": 5900,
             "summary": "植物萃取，孕婴可用，浓度可控，金属铝材，附赠3支不同香型的内芯",
             "url": "http://m.youpin.mi.com/detail?gid=103552"
@@ -395,6 +404,7 @@
             "name": "小米手环3",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/11f796b8b79f15a305f8dae6d6cf466f.png",
             "price": 16900,
+            "style" :"颜色" ,
             "price_min": 16900,
             "summary": "微信、QQ来电等消息内容直接显示 / 50米游泳防水 / 运动数据抬腕可见 / 心率、睡眠、记步，健康管理 / 长达20天续航能力（限购1台,同一用户、ID、手机号等;本商品限普通消费者购买，以牟利目的及不正当手段购买者，有品有权取消其购买资格）",
             "tags": [
@@ -438,6 +448,7 @@
             "name": "小米路由器4A千兆版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/9c36b689dbbff6bbbc061c08f575a5b6.png",
             "price": 16900,
+            "style" :"颜色" ,
             "price_min": 16900,
             "summary": "双核CPU，千兆网口，高增益4天线",
             "tags": [
@@ -480,6 +491,7 @@
             "name": "小米活塞耳机 清新版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/2fb55bca5d1b38516b2ef17369c8d8d8.png",
             "price": 2900,
+            "style" :"颜色" ,
             "price_min": 2900,
             "summary": "铝合金音腔，第三代平衡阻尼系统，线长1.25m，内置通话麦克风，可播放、暂停、接听、挂断",
             "tags": [
@@ -524,6 +536,7 @@
             "name": "清新香氛喷雾（空间,衣物除味剂）",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/cd3744e53f4f55e18ba5173d8c8fa179.png",
             "price": 2500,
+            "style" :"颜色" ,
             "price_min": 2500,
             "summary": "天然植物祛味,去除衣物及空间异味,法国香水香型",
             "tags": [
@@ -570,6 +583,7 @@
             "name": "小米手环3 NFC版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/11f796b8b79f15a305f8dae6d6cf466f.png",
             "price": 19900,
+            "style" :"颜色" ,
             "price_min": 19900,
             "summary": "支持公交地铁刷卡，微信、QQ、来电等内容显示，多种运动数据实时可见，睡眠、计步自动检测，50 米游泳防水，24 个汉字一屏显示",
             "tags": [
@@ -613,6 +627,7 @@
             "name": "米家驱蚊器智能版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/6961c7000e8fceeca26a4aa49db0f8f1.png",
             "price": 5900,
+            "style" :"颜色" ,
             "price_min": 5900,
             "summary": "手机定时开关机，智能驱蚊更省心",
             "url": "http://m.youpin.mi.com/detail?gid=107115"
@@ -635,6 +650,7 @@
             "name": " 小米路由器4C",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/6791f59c8717d2f1cf7fe2be71c7c393.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "高增益天线信号更强，64MB 内存运行稳定，APP智能管理，红包WiFi帮你赚钱",
             "tags": [
@@ -680,6 +696,7 @@
             "name": "BergHOFF不粘锅套装",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/511f995b5f9f18dd49c38b7fa48f14a2.png",
             "price": 19900,
+            "style" :"颜色" ,
             "price_min": 19900,
             "summary": "获红点设计奖，随心煎炒蒸煮，聚热快少油烟，多炉灶通用",
             "url": "http://m.youpin.mi.com/detail?gid=106952"
@@ -705,6 +722,7 @@
             "name": "全格无痕挂钩衣架",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/bb3de741a800c0e29f4a8331ae55ec56.png",
             "price": 1990,
+            "style" :"颜色" ,
             "price_min": 1990,
             "summary": "干湿两用，防滑防晒，无痕防皱",
             "tags": [
@@ -768,6 +786,7 @@
             "name": "九旬工具箱",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/37c1d92f1107a71bbd577ac4bd97d302.png",
             "price": 6900,
+            "style" :"颜色" ,
             "price_min": 6900,
             "summary": "合金钢锻造，多工具配置，维修拆装必备，安全耐用",
             "url": "http://m.youpin.mi.com/detail?gid=106611"
@@ -793,6 +812,7 @@
             "name": "花镜系列香水",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/9a352477a8f0bff162ad97fe217e7874.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "天然花材，怡人花香，留香持久，睡前舒缓",
             "tags": [
@@ -856,6 +876,7 @@
             "name": "四叶草茶具套装",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/100715_3v4sfi1pkxzcr.png",
             "price": 3900,
+            "style" :"颜色" ,
             "price_min": 3900,
             "summary": "四叶茶杯，优雅茶壶，独创釉色，精作茶盘",
             "url": "http://m.youpin.mi.com/detail?gid=100715"
@@ -880,6 +901,7 @@
             "name": "米家电磁炉 青春版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/77955584b85461b57480098de226052d.png",
             "price": 19900,
+            "style" :"颜色" ,
             "price_min": 19900,
             "summary": "2100W功率，加粗密绕线圈，9档火力调节，低功率持续加热",
             "tags": [
@@ -922,6 +944,7 @@
             "name": "米家电磁炉 白色",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/100863_438bfde15293345cdb408ce703a59b4a.png",
             "price": 29900,
+            "style" :"颜色" ,
             "price_min": 29900,
             "summary": "99挡微调控火，支持低温烹饪，100+烹饪模式",
             "tags": [
@@ -962,6 +985,7 @@
             "name": "米家人体传感器",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/403_3ed3f4a439cc25537936977fc24dbe67.png",
             "price": 5900,
+            "style" :"颜色" ,
             "price_min": 5900,
             "summary": "探测人体移动，多种摆放方式，高品质工艺，更多组合玩法",
             "tags": [
@@ -1005,6 +1029,7 @@
             "name": "黑胡桃原木餐桌椅",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/279e3de3e0d218fd869b8219124667c6.png",
             "price": 25900,
+            "style" :"颜色" ,
             "price_min": 25900,
             "summary": "黑胡桃原木，榫卯结构，悬浮式设计，未检出甲醛",
             "tags": [
@@ -1065,6 +1090,7 @@
             "name": "小米手环3彩色腕带",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/102499_365aba0b0f7209033ffc25e26f5fc0c9.png",
             "price": 1990,
+            "style" :"颜色" ,
             "price_min": 1990,
             "summary": "顺滑柔软触感舒适，一体成型更加稳固，三种色彩点亮生活",
             "tags": [
@@ -1109,6 +1135,7 @@
             "name": "皇家K36幼猫猫粮",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/5d9a8d00515a9b3339c6014f046b0425.png",
             "price": 2700,
+            "style" :"颜色" ,
             "price_min": 2700,
             "summary": "【买猫屋礼盒劲省30元】创造互动有爱有小空间，每一次饲喂都保持颗粒新鲜，物流包装变废为宝，轻松为猫咪搭建环保猫屋。",
             "tags": [
@@ -1156,6 +1183,7 @@
             "name": "速干T恤",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/af9e05aa2e89f739b09cb849c4f61ab0.png",
             "price": 3900,
+            "style" :"颜色" ,
             "price_min": 3900,
             "summary": "轻薄透气,瞬吸速干,舒适耐穿",
             "tags": [
@@ -1200,6 +1228,7 @@
             "name": "名仕花园简约男士香水",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/55f4b8b7fa8061748c3a6f0f7239a42e.png",
             "price": 13900,
+            "style" :"颜色" ,
             "price_min": 13900,
             "summary": "名师调制 进口原料 甄选花材",
             "tags": [
@@ -1262,6 +1291,7 @@
             "name": "复古平板微波炉",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/e99d19610c4d655c01e4a4c15236a147.png",
             "price": 39900,
+            "style" :"颜色" ,
             "price_min": 39900,
             "summary": "18升黄金容量，立体均匀速热，分类专业解冻",
             "tags": [
@@ -1308,6 +1338,7 @@
             "name": "小米小爱蓝牙音箱随身版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/21feb1f91f052954a09a96fc88ed1b04.png",
             "price": 4900,
+            "style" :"颜色" ,
             "price_min": 4900,
             "summary": "小巧便携，一键唤醒",
             "tags": [
@@ -1348,6 +1379,7 @@
             "name": "米家温湿度传感器",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/410_21bcc2986eec7e9fbb4d9300cabe537f.png",
             "price": 4900,
+            "style" :"颜色" ,
             "price_min": 4900,
             "summary": "智能电器联动，温湿度异常提醒，工业级传感器",
             "tags": [
@@ -1392,6 +1424,7 @@
             "name": "小米运动蓝牙耳机 青春版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/6f824bfb735da5ccd1df418c8adbf915.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "轻至13.6克 / IPX4防水 / 11小时长续航 / 防脱落耳顶 / 多功能线控 可调节音量、切歌、暂停、通话、呼唤小爱同学",
             "tags": [
@@ -1435,6 +1468,7 @@
             "name": "米家温湿监测电子表",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/8358ea694d6ef27e53a2ba2545a3accd.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "知冷暖懂干湿的电子表，温湿度监测，电子墨水屏，智能互联，灵活摆放",
             "tags": [
@@ -1478,6 +1512,7 @@
             "name": "汽车后视镜防雨膜",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/7d4d8ea3282646377a27ca6a4084dee1.png",
             "price": 1990,
+            "style" :"颜色" ,
             "price_min": 1990,
             "summary": "防雨防雾，视野清晰，防爆耐磨，易装易取",
             "url": "http://m.youpin.mi.com/detail?gid=104409"
@@ -1500,6 +1535,7 @@
             "name": "小米手环3专用充电线",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/0edb5f10536b6031cc77c465965420d5.png",
             "price": 990,
+            "style" :"颜色" ,
             "price_min": 990,
             "summary": "方便携带，专用充电线",
             "tags": [
@@ -1544,6 +1580,7 @@
             "name": "便携式灭蚊灯",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/47d6a2788a783a6016724c31928f09f1.png",
             "price": 6900,
+            "style" :"颜色" ,
             "price_min": 6900,
             "summary": "光波诱蚊，物理静电电击灭蚊，防火耐摔耐用，照明灭蚊二合一，附带USB数据线",
             "url": "http://m.youpin.mi.com/detail?gid=106239"
@@ -1569,6 +1606,7 @@
             "name": "高低帮帆布鞋情侣同款",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/101605_eac2ffcc114fe7003b13a83b412f7874.png",
             "price": 8900,
+            "style" :"颜色" ,
             "price_min": 8900,
             "summary": "防泼帮面，耐磨大底，定制鞋楦，款式百搭",
             "tags": [
@@ -1614,6 +1652,7 @@
             "name": "挪车二维码",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/9af76313c7da23889627c0d007f91732.png",
             "price": 990,
+            "style" :"颜色" ,
             "price_min": 990,
             "summary": "不占空间，匿名通话，一键挪车",
             "url": "http://m.youpin.mi.com/detail?gid=104218"
@@ -1640,6 +1679,7 @@
             "name": "素乐台式风扇",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/21fd4f32f47bacf97c29c43d6657e9d6.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "3挡风速可调，左右60°摇头，27°高度可调，4000mAh大电量，长达12小时续航，可拆卸设计，附带Type-C数据线",
             "tags": [
@@ -1683,6 +1723,7 @@
             "name": "Aqara智能墙壁开关",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/4450acdc8cbd84b493ae8a11bf1dbf9a.png",
             "price": 13900,
+            "style" :"颜色" ,
             "price_min": 13900,
             "summary": "搭配网关，普通灯秒变智能灯，快速安装，直接替换家中86型开关面板，支持小爱同学语音控制",
             "url": "http://m.youpin.mi.com/detail?gid=284"
@@ -1708,6 +1749,7 @@
             "name": "小米双单元半入耳式耳机",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/101241_5a31481b94b6c7f5cbaac425bea266ee.png",
             "price": 6900,
+            "style" :"颜色" ,
             "price_min": 6900,
             "summary": "半入耳式舒适佩戴， 动圈+陶瓷喇叭双单元，高韧性线材+微机电麦克风线控，90°贴心插头",
             "tags": [
@@ -1753,6 +1795,7 @@
             "name": "VH\"漫\"桌面加湿器",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/0b39e5dd42e1c3c0d733d222d04c91fd.png",
             "price": 6500,
+            "style" :"颜色" ,
             "price_min": 6500,
             "summary": "静音保湿，触摸控制，智能防干烧，420ml大容量，可持续喷雾10小时，2种喷雾模式可选，缺水提示 拧盖加水",
             "url": "http://m.youpin.mi.com/detail?gid=104149"
@@ -1779,6 +1822,7 @@
             "name": "城市轻跑鞋",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/a1dae139d3464cb990b42f006b51eeb1.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "网布鞋面，透气舒适，EVA鞋底，潮流百搭",
             "url": "http://m.youpin.mi.com/detail?gid=105391"
@@ -1805,6 +1849,7 @@
             "name": "小米双单元半入耳式耳机 Type-C版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/c786fa49ec49b9ab40ef7f82b6d951de.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "Hi-Res认证 / USB Type-C接口 / 动圈+陶瓷喇叭 / 半入耳式舒适佩戴 / 微机电麦克风线控 / 线长1.25m 轻至15g",
             "tags": [
@@ -1849,6 +1894,7 @@
             "name": "迷你电动剃须刀",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/832ed7dc468ef1816207753c4dffcd73.png",
             "price": 6900,
+            "style" :"颜色" ,
             "price_min": 6900,
             "summary": "迷你圆筒机身，深层剃净，持久续航，干湿双剃",
             "url": "http://m.youpin.mi.com/detail?gid=106224"
@@ -1875,6 +1921,7 @@
             "name": "阿多立体热敷眼罩",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/7d367b5e179ed8c435c1057379db9123.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "环绕眼眶加热，立体成型，保护眼妆，眼球无压感，即插即热",
             "url": "http://m.youpin.mi.com/detail?gid=102591"
@@ -1900,6 +1947,7 @@
             "name": "米家破壁料理机",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/449b6769b8f936ceb4a60c7347b95bfe.png",
             "price": 69900,
+            "style" :"颜色" ,
             "price_min": 69900,
             "summary": "大功率高速破壁，8叶精钢刀片，OLED旋钮屏幕，9大营养菜单",
             "tags": [
@@ -1944,6 +1992,7 @@
             "name": "车载出风口香薰 布艺款",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/6bd5d38893ef5949c28a759ccb09c9ae.png",
             "price": 4900,
+            "style" :"颜色" ,
             "price_min": 4900,
             "summary": "植物萃取，孕婴可用，精致小巧，持久馨香，附赠3支不同香型的内芯",
             "url": "http://m.youpin.mi.com/detail?gid=103550"
@@ -1969,6 +2018,7 @@
             "name": "CARFOOK车载出风口香薰",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/adc13d603a309b9b93945afc1746d0af.png",
             "price": 1290,
+            "style" :"颜色" ,
             "price_min": 1290,
             "summary": "植物萃取，孕婴可用，精致小巧，安装简单",
             "url": "http://m.youpin.mi.com/detail?gid=105859"
@@ -1995,6 +2045,7 @@
             "name": "QCY迷你蓝牙耳机",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/375_04c8b681ab73c5c4bcb948f2ff435469.png",
             "price": 4900,
+            "style" :"颜色" ,
             "price_min": 4900,
             "summary": "舒适佩戴，微型机身，轻巧重量，酷炫外观",
             "url": "http://m.youpin.mi.com/detail?gid=375"
@@ -2019,6 +2070,7 @@
             "name": "AutoBot 玩味香薰",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/2cc346513ebb4f9ece9d6a0ea5e690e8.png",
             "price": 4900,
+            "style" :"颜色" ,
             "price_min": 4900,
             "summary": "植物精油，车家两用，重复使用，香溢全车",
             "tags": [
@@ -2065,6 +2117,7 @@
             "name": "30cm不粘煎锅",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/101399_bec049c5288b69ceac38a16ec642270e.png",
             "price": 14900,
+            "style" :"颜色" ,
             "price_min": 14900,
             "summary": "一锅多用，超强不粘，少油烹饪，健康生活",
             "url": "http://m.youpin.mi.com/detail?gid=101399"
@@ -2090,6 +2143,7 @@
             "name": "都市简约邮差包/斜挎包",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/760_0b40cb7a6dff527f4282f64cfe69f4e4.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "单肩斜挎，防泼水，轻巧随行",
             "tags": [
@@ -2149,6 +2203,7 @@
             "name": "小米车载充电器快充版（18W）",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/2d86391e9f7d284d8785c66fb94e0004.png",
             "price": 4900,
+            "style" :"颜色" ,
             "price_min": 4900,
             "summary": "支持18w快充，双USB智能输出，灯光提示，黄铜壳体",
             "url": "http://m.youpin.mi.com/detail?gid=104177"
@@ -2173,6 +2228,7 @@
             "name": "重力感应车载手机支架",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/56ca3986a5d68e4d67b9a2aaed64b949.png",
             "price": 3900,
+            "style" :"颜色" ,
             "price_min": 3900,
             "summary": "重力联动，单手操作，多设备兼容，不挡视线",
             "tags": [
@@ -2218,6 +2274,7 @@
             "name": "米家直流变频落地扇1X",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/d9760ae712f07ccfe58864e8e6048ad6.png",
             "price": 29900,
+            "style" :"颜色" ,
             "price_min": 29900,
             "summary": "小爱同学语音控制，远至14米送风距离，140°摆头幅度，100档风速可调，7羽叶设计，噪音低至26.6dB(A)",
             "url": "http://m.youpin.mi.com/detail?gid=106626"
@@ -2244,6 +2301,7 @@
             "name": "QCY Mini2 蓝牙耳机",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/576a56fc4831c5bf0f5e95b16496d869.png",
             "price": 5900,
+            "style" :"颜色" ,
             "price_min": 5900,
             "summary": "蓝牙5.0，迷你隐形，通透音质",
             "url": "http://m.youpin.mi.com/detail?gid=105307"
@@ -2268,6 +2326,7 @@
             "name": "云米机械式电热水器",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/1b1e0c29c24a27ccf164866e940ccd95.png",
             "price": 59900,
+            "style" :"颜色" ,
             "price_min": 59900,
             "summary": "40/50/60L  2级能效 质保8年 2000W大功率 安全速热 双重防漏电保护 5倍增容 节能省电",
             "url": "http://m.youpin.mi.com/detail?gid=105126"
@@ -2291,6 +2350,7 @@
             "name": "小米蓝牙耳机青春版",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/0e67690af226184c1e12ea4b940f93cd.png",
             "price": 5900,
+            "style" :"颜色" ,
             "price_min": 5900,
             "summary": "蓝牙4.1连接，高清通话音质，6.5g轻巧机身，支持音量调节/切歌",
             "tags": [
@@ -2336,6 +2396,7 @@
             "name": "向物桌面加湿器 几何",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/7b282514d94b1305e029b03e0f5ac629.png",
             "price": 5500,
+            "style" :"颜色" ,
             "price_min": 5500,
             "summary": "夏季补水，素雅纹理，透明水槽，260ml水箱，可拆卸模块化设计，直喷/加湿两档可调，超声波雾化，附带Micro-USB数据线",
             "tags": [
@@ -2381,6 +2442,7 @@
             "name": "AMAZFIT Cor2 手环",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/b35869bdc4ef919c071d2a39efe52897.png",
             "price": 29900,
+            "style" :"颜色" ,
             "price_min": 29900,
             "summary": "彩色触摸大屏,NFC公交卡,支付宝离线支付,50米防水",
             "url": "http://m.youpin.mi.com/detail?gid=106225"
@@ -2405,6 +2467,7 @@
             "name": "简约实木床",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/9673f7b7f7d96af41852173ba0261397.png",
             "price": 63900,
+            "style" :"颜色" ,
             "price_min": 63900,
             "summary": "天然实木，回归一室的简和美",
             "tags": [
@@ -2450,6 +2513,7 @@
             "name": "速干防晒印花996T恤",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/f5ccd2ec319fa3774f7fec7f78cedf66.png",
             "price": 4900,
+            "style" :"颜色" ,
             "price_min": 4900,
             "summary": "趣味996,防紫外线,高回弹性,轻薄透气",
             "url": "http://m.youpin.mi.com/detail?gid=106808"
@@ -2476,6 +2540,7 @@
             "name": "霸蛮田头菇炖老鸡粉",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/c98f473014335a5acfe58c7baf755f39.png",
             "price": 1190,
+            "style" :"颜色" ,
             "price_min": 1190,
             "summary": "【需煮制】NFC原汤，早稻籼米制粉，真实鸡肉田头菇",
             "tags": [
@@ -2520,6 +2585,7 @@
             "name": "Adidas男士走珠香体液",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/ebf2348c0c238631d19612f4b9181f1f.png",
             "price": 2590,
+            "style" :"颜色" ,
             "price_min": 2590,
             "summary": "腋下干爽，清新香型，持久留香",
             "url": "http://m.youpin.mi.com/detail?gid=106308"
@@ -2544,6 +2610,7 @@
             "name": "小米路由器4A",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/668699387e49cccd68878c48c9737735.png",
             "price": 11900,
+            "style" :"颜色" ,
             "price_min": 11900,
             "summary": "小米路由器4A，高增益4天线，64M大内存稳定连接64台终端设备，安全防蹭网，远程APP控制，儿童安全上网",
             "tags": [
@@ -2587,6 +2654,7 @@
             "name": "圈厨复古转盘微波炉",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/1ca40af362a914ab2a693e17d7c35499.png",
             "price": 35900,
+            "style" :"颜色" ,
             "price_min": 35900,
             "summary": "简约高颜，轻松操作，转盘匀热，多重防辐",
             "tags": [
@@ -2633,6 +2701,7 @@
             "name": "通勤双肩包",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/8b8e68654aec2d27c322c4e935af9734.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "桶状开口，4级防泼水，简约轻便",
             "tags": [
@@ -2677,6 +2746,7 @@
             "name": "寻本可溯源全价狗粮",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/1e0cc06be190919cd12b72f04772bded.png",
             "price": 7600,
+            "style" :"颜色" ,
             "price_min": 7600,
             "summary": "食材溯源,日本配方,优质蛋白,健康肠道,中日认证",
             "tags": [
@@ -2722,6 +2792,7 @@
             "name": "小米圈铁耳机2",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/102052_2p6kyxa0yz54o.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "石墨烯振膜，动铁+动圈双单元喇叭结构",
             "tags": [
@@ -2768,6 +2839,7 @@
             "name": "石墨烯发热真丝眼罩",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/102464_34ba0ed1cb05cd223098fe28b141997b.png",
             "price": 10500,
+            "style" :"颜色" ,
             "price_min": 10500,
             "summary": "秒热技术，双面真丝材料，3档温控，15分钟自动断电，随时随地享受眼部SPA，促进血液循环，缓解机体疲劳，改善睡眠，呵护眼部肌肤，让您拥有清澈双眸",
             "tags": [
@@ -2830,6 +2902,7 @@
             "name": "小米随身蓝牙音箱",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/172_847e6e495ead175d16974514e9a90fef.png",
             "price": 6900,
+            "style" :"颜色" ,
             "price_min": 6900,
             "summary": "玲珑身材，不同凡响，轻巧随身好音箱",
             "tags": [
@@ -2873,6 +2946,7 @@
             "name": "米家直流变频落地扇",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/102226_3dd1552c2272661acb678f0ea27b3969.png",
             "price": 32900,
+            "style" :"颜色" ,
             "price_min": 32900,
             "summary": "7羽叶设计，模拟自然风算法，智能AI语音及多种智能操控，APP100挡无极变速，120°大角度摆头",
             "tags": [
@@ -2936,6 +3010,7 @@
             "name": "垃圾桶三件套",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/374d5b36d5a4904d1d4e600771d4a857.png",
             "price": 7900,
+            "style" :"颜色" ,
             "price_min": 7900,
             "summary": "优质PP材质，软胶锯齿外圈，极简外观设计",
             "url": "http://m.youpin.mi.com/detail?gid=106717"
@@ -2957,6 +3032,7 @@
             "name": "米家多功能网关",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/396_66c6f48ba01c5723958141ebbb086540.png",
             "price": 14900,
+            "style" :"颜色" ,
             "price_min": 14900,
             "summary": "网络电台直播，1600万色夜灯，自定义报警铃声",
             "tags": [
@@ -3001,6 +3077,7 @@
             "name": "皇家小型犬狗粮",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/de4efa999069b97c74a0bf0599050bf7.png",
             "price": 7500,
+            "style" :"颜色" ,
             "price_min": 7500,
             "summary": "提高免疫力，源自法国专利，定制颗粒，为爱犬量身定制精准营养",
             "tags": [
@@ -3047,6 +3124,7 @@
             "name": "米家运动鞋2",
             "pic_url": "http://img.youpin.mi-img.com/800_pic/102232_a02e2be4a4f777da0ead5d4b6f1711bb.png",
             "price": 19900,
+            "style" :"颜色" ,
             "price_min": 19900,
             "summary": "Uni-Moulding一体成型工艺 ，一片式立体高弹针织鞋面，全新独立鱼骨锁紧系统",
             "url": "http://m.youpin.mi.com/detail?gid=103025"
@@ -3070,6 +3148,7 @@
             "name": "妮维雅海洋酷爽爽身走珠液（男士专用） ",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/2c53e804e640de28ca8066b9a6b687af.png",
             "price": 2800,
+            "style" :"颜色" ,
             "price_min": 2800,
             "summary": "男士止汗 腋下酷爽",
             "url": "http://m.youpin.mi.com/detail?gid=106115"
@@ -3096,6 +3175,7 @@
             "name": "车载无线充电手机支架",
             "pic_url": "https://img.youpin.mi-img.com/800_pic/cdd586b01366bebb31c54947509a3fd9.png",
             "price": 9900,
+            "style" :"颜色" ,
             "price_min": 9900,
             "summary": "10W无线充电，WPC标准/Qi授权，快充不伤机，重力联动锁紧",
             "url": "http://m.youpin.mi.com/detail?gid=105596"
