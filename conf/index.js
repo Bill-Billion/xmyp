@@ -12,6 +12,9 @@ module.exports = {
             },
             "common" : {
                    src : "./src/scripts/libs/"
+            },
+            "detail" : {
+                   src : "./src/scripts/detail/"
             }
       },
       scss : {

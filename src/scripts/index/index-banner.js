@@ -22,14 +22,14 @@ $(function(){
     function bannerNext(evt){
         count1++;
         evt.css({
-            transform : "translate3d("+-864*count1+"px, 0px, 0px)",
+            transform : "translate3d("+-859*count1+"px, 0px, 0px)",
             "transition-duration" : "1000ms"
         });
     }
     function bannerPrev(evt){
         count1--;
         evt.css({
-            transform : "translate3d("+-864*count1+"px, 0px, 0px)",
+            transform : "translate3d("+-859*count1+"px, 0px, 0px)",
             "transition-duration" : "1000ms"
         });
     }

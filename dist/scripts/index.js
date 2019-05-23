@@ -31,7 +31,7 @@ $(function () {
   function bannerNext(evt) {
     count1++;
     evt.css({
-      transform: "translate3d(" + -864 * count1 + "px, 0px, 0px)",
+      transform: "translate3d(" + -859 * count1 + "px, 0px, 0px)",
       "transition-duration": "1000ms"
     });
   }
@@ -39,7 +39,7 @@ $(function () {
   function bannerPrev(evt) {
     count1--;
     evt.css({
-      transform: "translate3d(" + -864 * count1 + "px, 0px, 0px)",
+      transform: "translate3d(" + -859 * count1 + "px, 0px, 0px)",
       "transition-duration": "1000ms"
     });
   } // 头、尾部判断函数
@@ -220,9 +220,9 @@ $(function () {
         }
 
         if (count % 4 == 1) {
-          html += "<div class=\"m-goods-item-container  pro-item-category\" data-src=\"/detail?gid=".concat(item.gid, "\" data-target=\"_blank\" style=\"margin-left:0\">\n                                <div class=\"category-img-container\">\n                                    <div class=\"product-img\">\n                                        <div class=\"m-product-image-container\" data-src=\"").concat(item.imgs.img800, "\" style=\"width: 264px; height: 198px;\">\n                                            <div class=\"img-container\" style=\"padding: 45px 70px 28px; width: 124px; height: 125px;\">\n                                                <img src=\"").concat(item.imgs.img800, "\" data-src=\"").concat(item.imgs.img800, "\" alt=\"").concat(item.name, "\" style=\"height: 125px; width: 125px; margin-left: -0.5px;\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <p class=\"pro-desc\">").concat(item.attr_ext.custom_summary, "</p>\n                                </div>\n                                ").concat(color_c, "\n                                <div class=\"category-box\">\n                                    <div class=\"m-goods-common-tag-con\"></div>\n                                    <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                    <p class=\"pro-price\">\n                                        <span class=\"pro-unit\">\xA5</span>\n                                        <span class=\"m-num\">").concat(item.price / 100, "</span>\n                                    </p>\n                                </div>\n                            </div>");
+          html += " <a href=\"detail.html?values=".concat(item.gid, "\">\n                                <div class=\"m-goods-item-container  pro-item-category\" data-src=\"/detail?gid=").concat(item.gid, "\" data-target=\"_blank\" style=\"margin-left:0\">\n                                    <div class=\"category-img-container\">\n                                        <div class=\"product-img\">\n                                            <div class=\"m-product-image-container\" data-src=\"").concat(item.imgs.img800, "\" style=\"width: 264px; height: 198px;\">\n                                                <div class=\"img-container\" style=\"padding: 45px 70px 28px; width: 124px; height: 125px;\">\n                                                    <img src=\"").concat(item.imgs.img800, "\" data-src=\"").concat(item.imgs.img800, "\" alt=\"").concat(item.name, "\" style=\"height: 125px; width: 125px; margin-left: -0.5px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <p class=\"pro-desc\">").concat(item.attr_ext.custom_summary, "</p>\n                                    </div>\n                                    ").concat(color_c, "\n                                    <div class=\"category-box\">\n                                        <div class=\"m-goods-common-tag-con\"></div>\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.price / 100, "</span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </a>");
         } else {
-          html += "<div class=\"m-goods-item-container  pro-item-category\" data-src=\"/detail?gid=".concat(item.gid, "\" data-target=\"_blank\">\n                                <div class=\"category-img-container\">\n                                    <div class=\"product-img\">\n                                        <div class=\"m-product-image-container\" data-src=\"").concat(item.imgs.img800, "\" style=\"width: 264px; height: 198px;\">\n                                            <div class=\"img-container\" style=\"padding: 45px 70px 28px; width: 124px; height: 125px;\">\n                                                <img src=\"").concat(item.imgs.img800, "\" data-src=\"").concat(item.imgs.img800, "\" alt=\"").concat(item.name, "\" style=\"height: 125px; width: 125px; margin-left: -0.5px;\">\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <p class=\"pro-desc\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.summary, "</p>\n                                </div>\n                                ").concat(color_c, "\n                                <div class=\"category-box\">\n                                    ").concat(a, "\n                                    <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                    <p class=\"pro-price\">\n                                        <span class=\"pro-unit\">\xA5</span>\n                                        <span class=\"m-num\">").concat(item.price / 100, "</span>\n                                    </p>\n                                </div>\n                            </div>");
+          html += " <a href=\"detail.html?values=".concat(item.gid, "\">\n                                <div class=\"m-goods-item-container  pro-item-category\" data-src=\"/detail?gid=").concat(item.gid, "\" data-target=\"_blank\">\n                                    <div class=\"category-img-container\">\n                                        <div class=\"product-img\">\n                                            <div class=\"m-product-image-container\" data-src=\"").concat(item.imgs.img800, "\" style=\"width: 264px; height: 198px;\">\n                                                <div class=\"img-container\" style=\"padding: 45px 70px 28px; width: 124px; height: 125px;\">\n                                                    <img src=\"").concat(item.imgs.img800, "\" data-src=\"").concat(item.imgs.img800, "\" alt=\"").concat(item.name, "\" style=\"height: 125px; width: 125px; margin-left: -0.5px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <p class=\"pro-desc\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.summary, "</p>\n                                    </div>\n                                    ").concat(color_c, "\n                                    <div class=\"category-box\">\n                                        ").concat(a, "\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.price / 100, "</span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </a>");
         }
       });
       $(".m-product-list")[0].innerHTML = html;
@@ -274,23 +274,46 @@ $(function () {
   setTimeout(function () {
     lazyload();
   }, 10);
-});
+}); //banner侧边栏
+
 $(function () {
   var _ref2 = [$(".nav-list"), $(".nav-item"), $(".nav-detail")],
       nav_list = _ref2[0],
       nav_item = _ref2[1],
       nav_detail = _ref2[2];
-  console.log(nav_item);
-  nav_item.hover(function () {
+  $(function () {
+    nav_item.mouseenter(function () {
+      var getLi = $(this).index();
+      console.log(getLi);
+    });
+  });
+  nav_item.mouseenter(function () {
     nav_detail.addClass("show");
-  }, function () {
+  });
+  nav_detail.mouseenter(function () {
+    nav_detail.addClass("show");
+  });
+  nav_item.mouseleave(function () {
     nav_detail.removeClass("show");
   });
-}); //搜索栏吸顶
-
+  nav_detail.mouseleave(function () {
+    nav_detail.removeClass("show");
+  });
+});
 $(function () {
+  //搜索栏吸顶
   var m_header = $("#m-header"),
-      set_top = m_header.offset();
+      set_top = m_header.offset(),
+      search_form = $(".search-form"),
+      search_input = $(".search-input-con input"),
+      fixed_item = $(".m-fixedBar>ul>li"),
+      service_pop = $(".fixed-service-pop"),
+      download_pop = $(".fixed-down-pop"),
+      gift_pop = $(".fixed-gift-pop"),
+      wxchat_pop = $(".fixed-wx-pop"),
+      m_clauses = $("#m-clauses"),
+      site_item = $(".site-item-nav");
+  console.log(site_item);
   $(document).on("scroll", function () {
     var header_top = $(document).scrollTop();
 
@@ -299,5 +322,46 @@ $(function () {
     } else {
       m_header.removeClass("m-header-fixed");
     }
+  });
+  m_clauses.mouseenter(function () {
+    site_item.addClass("show");
+  });
+  m_clauses.mouseleave(function () {
+    site_item.removeClass("show");
+  }); //搜索选框
+
+  search_input.focus(function () {
+    search_form.addClass("active");
+  });
+  search_input.blur(function () {
+    search_form.removeClass("active");
+  }); // 侧边浮动栏
+
+  fixed_item.mouseenter(function () {
+    var getLi = $(this).index();
+
+    switch (getLi) {
+      case 0:
+        service_pop.addClass("show");
+        break;
+
+      case 1:
+        download_pop.addClass("show");
+        break;
+
+      case 2:
+        gift_pop.addClass("show");
+        break;
+
+      case 3:
+        wxchat_pop.addClass("show");
+        break;
+    }
+  });
+  fixed_item.mouseleave(function () {
+    service_pop.removeClass("show");
+    download_pop.removeClass("show");
+    gift_pop.removeClass("show");
+    wxchat_pop.removeClass("show");
   });
 });

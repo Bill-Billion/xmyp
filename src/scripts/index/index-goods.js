@@ -48,50 +48,54 @@ $(function () {
                     color_c =  `<div class="m-goods-pro-tag-con">${item.color_num}色可选</div>`
                 }
                 if(count%4==1){
-                    html+=`<div class="m-goods-item-container  pro-item-category" data-src="/detail?gid=${item.gid}" data-target="_blank" style="margin-left:0">
-                                <div class="category-img-container">
-                                    <div class="product-img">
-                                        <div class="m-product-image-container" data-src="${item.imgs.img800}" style="width: 264px; height: 198px;">
-                                            <div class="img-container" style="padding: 45px 70px 28px; width: 124px; height: 125px;">
-                                                <img src="${item.imgs.img800}" data-src="${item.imgs.img800}" alt="${item.name}" style="height: 125px; width: 125px; margin-left: -0.5px;">
+                    html+=` <a href="detail.html?values=${item.gid}">
+                                <div class="m-goods-item-container  pro-item-category" data-src="/detail?gid=${item.gid}" data-target="_blank" style="margin-left:0">
+                                    <div class="category-img-container">
+                                        <div class="product-img">
+                                            <div class="m-product-image-container" data-src="${item.imgs.img800}" style="width: 264px; height: 198px;">
+                                                <div class="img-container" style="padding: 45px 70px 28px; width: 124px; height: 125px;">
+                                                    <img src="${item.imgs.img800}" data-src="${item.imgs.img800}" alt="${item.name}" style="height: 125px; width: 125px; margin-left: -0.5px;">
+                                                </div>
                                             </div>
                                         </div>
+                                        <p class="pro-desc">${item.attr_ext.custom_summary}</p>
                                     </div>
-                                    <p class="pro-desc">${item.attr_ext.custom_summary}</p>
+                                    ${color_c}
+                                    <div class="category-box">
+                                        <div class="m-goods-common-tag-con"></div>
+                                        <p class="pro-info" title="${item.name}" style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">${item.name}</p>
+                                        <p class="pro-price">
+                                            <span class="pro-unit">¥</span>
+                                            <span class="m-num">${item.price/100}</span>
+                                        </p>
+                                    </div>
                                 </div>
-                                ${color_c}
-                                <div class="category-box">
-                                    <div class="m-goods-common-tag-con"></div>
-                                    <p class="pro-info" title="${item.name}" style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">${item.name}</p>
-                                    <p class="pro-price">
-                                        <span class="pro-unit">¥</span>
-                                        <span class="m-num">${item.price/100}</span>
-                                    </p>
-                                </div>
-                            </div>`; 
+                            </a>`; 
                 }
                 else{
-                    html+=`<div class="m-goods-item-container  pro-item-category" data-src="/detail?gid=${item.gid}" data-target="_blank">
-                                <div class="category-img-container">
-                                    <div class="product-img">
-                                        <div class="m-product-image-container" data-src="${item.imgs.img800}" style="width: 264px; height: 198px;">
-                                            <div class="img-container" style="padding: 45px 70px 28px; width: 124px; height: 125px;">
-                                                <img src="${item.imgs.img800}" data-src="${item.imgs.img800}" alt="${item.name}" style="height: 125px; width: 125px; margin-left: -0.5px;">
+                    html+=` <a href="detail.html?values=${item.gid}">
+                                <div class="m-goods-item-container  pro-item-category" data-src="/detail?gid=${item.gid}" data-target="_blank">
+                                    <div class="category-img-container">
+                                        <div class="product-img">
+                                            <div class="m-product-image-container" data-src="${item.imgs.img800}" style="width: 264px; height: 198px;">
+                                                <div class="img-container" style="padding: 45px 70px 28px; width: 124px; height: 125px;">
+                                                    <img src="${item.imgs.img800}" data-src="${item.imgs.img800}" alt="${item.name}" style="height: 125px; width: 125px; margin-left: -0.5px;">
+                                                </div>
                                             </div>
                                         </div>
+                                        <p class="pro-desc" style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">${item.summary}</p>
                                     </div>
-                                    <p class="pro-desc" style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">${item.summary}</p>
+                                    ${color_c}
+                                    <div class="category-box">
+                                        ${a}
+                                        <p class="pro-info" title="${item.name}" style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">${item.name}</p>
+                                        <p class="pro-price">
+                                            <span class="pro-unit">¥</span>
+                                            <span class="m-num">${item.price/100}</span>
+                                        </p>
+                                    </div>
                                 </div>
-                                ${color_c}
-                                <div class="category-box">
-                                    ${a}
-                                    <p class="pro-info" title="${item.name}" style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">${item.name}</p>
-                                    <p class="pro-price">
-                                        <span class="pro-unit">¥</span>
-                                        <span class="m-num">${item.price/100}</span>
-                                    </p>
-                                </div>
-                            </div>`;
+                            </a>`;
                     }
             })
             $(".m-product-list")[0].innerHTML=html;
