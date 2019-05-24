@@ -79,10 +79,10 @@ gulp.task("json",()=>{
 })
 init();
 
-console.log(scriptsTaskArray,scripts);
+// console.log(scriptsTaskArray,scripts);
 gulp.task("scripts",scriptsTaskArray);
 
-console.log(scssTaskArray,scssJSON);
+// console.log(scssTaskArray,scssJSON);
 gulp.task('scss', scssTaskArray);
 
 gulp.task("gulp-dev",["html","scripts","scss","images","connect","watch","json"]);
