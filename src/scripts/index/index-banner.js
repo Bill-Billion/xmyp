@@ -1,4 +1,4 @@
-$(function(){
+
     //变量定义区域
     var count1 = 0;
     var count2 = 0;
@@ -18,13 +18,21 @@ $(function(){
         $(".h-new-sec .swiper-wrapper"),$(".h-new-sec .swiper-button-next"),$(".h-new-sec .swiper-button-prev"),$(".h-new-sec .swiper-slide"),
         $(".h-hot-sec .swiper-wrapper"),$(".h-hot-sec .swiper-button-next"),$(".h-hot-sec .swiper-button-prev"),$(".h-hot-sec .swiper-slide")
     ]
-    console.log(banner_img.length)
+    
+    // console.log($(".h-hot-sec .swiper-wrapper").children());
+    // console.log(hot_goods)
     function bannerNext(evt){
         count1++;
         evt.css({
             transform : "translate3d("+-859*count1+"px, 0px, 0px)",
             "transition-duration" : "1000ms"
         });
+        if(count1===5){
+            evt.css({
+                transform : "translate3d(0px, 0px, 0px)",
+            });
+            count1 = 0;
+        }
     }
     function bannerPrev(evt){
         count1--;
@@ -32,6 +40,13 @@ $(function(){
             transform : "translate3d("+-859*count1+"px, 0px, 0px)",
             "transition-duration" : "1000ms"
         });
+        if(count1===-1){
+            evt.css({
+                transform : "translate3d("+-859*4+"px, 0px, 0px)",
+                "transition-duration" : "1000ms"
+            });
+            count1 = 4;
+        }
     }
     // 头、尾部判断函数
     function judgeClick(num,next,prev,good){
@@ -52,7 +67,7 @@ $(function(){
     //点击右移271px
     function goNext(evt,num,next,prev,good){
         num++;
-        console.log(num);
+        // console.log(num);
         evt.css({
             transform : "translate3d("+-271*num+"px, 0px, 0px)",
             "transition-duration" : "600ms"
@@ -62,13 +77,16 @@ $(function(){
     //点击左移271px
     function goPrev(evt,num,next,prev,good){
         num--;
-        console.log(num);
+        // console.log(num);
         evt.css({
             transform : "translate3d("+-271*num+"px, 0px, 0px)",
             "transition-duration" : "600ms"
         });
         judgeClick(num,next,prev,good);
     }
+    var timeSet = setInterval(() => {
+        bannerNext(banner_slide);
+    }, 3500);
     // timer = setInterval(function (){
     //     count1++;
     //     if(count1==banner_img.length){count1=0};
@@ -77,10 +95,6 @@ $(function(){
 
     banner_next.click(function(){bannerNext(banner_slide);});
     banner_prev.click(function(){bannerPrev(banner_slide);});
-    limte_next.click(function(){goNext(limte_slide,count2,limte_next,limte_prev,limite_goods);count2++});
-    limte_prev.click(function(){goPrev(limte_slide,count2,limte_next,limte_prev,limite_goods);count2--});
-    news_next.click(function(){goNext(news_slide,count3,news_next,news_prev,news_goods);count3++});
-    news_prev.click(function(){goPrev(news_slide,count3,news_next,news_prev,news_goods);count3--});
-    hot_next.click(function(){goNext(hot_slide,count4,hot_next,hot_prev,hot_goods);count4++});
-    hot_prev.click(function(){goPrev(hot_slide,count4,hot_next,hot_prev,hot_goods);count4--});
-})
+    
+    
+ 

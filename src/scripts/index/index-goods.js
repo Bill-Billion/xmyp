@@ -1,5 +1,5 @@
 //鼠标移入商品，样式发生变化
-$(function(){
+var changeStyle=function(){
     let goods = $(".m-goods-item-container");
     goods.mouseenter(function(){
         $(this).css({
@@ -14,7 +14,8 @@ $(function(){
             "transform" : "translate3d(0px, 0px, 0px)",
         })
     })
-})
+}
+changeStyle();
 //渲染商品界面
 $(function () {
     var html="";
@@ -99,22 +100,7 @@ $(function () {
                     }
             })
             $(".m-product-list")[0].innerHTML=html;
-            $(function(){
-                let goods = $(".m-goods-item-container");
-                goods.mouseenter(function(){
-                    $(this).css({
-                        "transform" : "translate3d(0px, -3px, 0px)",
-                        "box-shadow" : "rgb(230,230,230) 0px 0px 5px 2px",
-                        "transition-duration" : "300ms"
-                    });
-                })
-                goods.mouseleave(function(){
-                    $(this).css({
-                        "box-shadow" : "",
-                        "transform" : "translate3d(0px, 0px, 0px)",
-                    })
-                })
-            })
+            changeStyle();
         }
      })
      
