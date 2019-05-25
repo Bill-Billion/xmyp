@@ -1,55 +1,46 @@
 $(function(){
     $("#show").html(oneValues());
 })
-$(function(){
-    //搜索栏吸顶
-    var m_header = $("#m-header"),
-        set_top = m_header.offset(),
-        search_form = $(".search-form"),
-        search_input = $(".search-input-con input"),
-        fixed_item = $(".m-fixedBar>ul>li"),
-        service_pop = $(".fixed-service-pop"),
-        download_pop = $(".fixed-down-pop"),
-        gift_pop = $(".fixed-gift-pop"),
-        wxchat_pop = $(".fixed-wx-pop");
-    $(document).on("scroll",function(){
-        var header_top = $(document).scrollTop();
-        if(header_top>450){
-            m_header.addClass("m-header-fixed")
-        }else{
-            m_header.removeClass("m-header-fixed")
-        }
-    })
-    //搜索选框
-    search_input.focus(function(){
-        search_form.addClass("active");
-    });
-    search_input.blur(function(){
-        search_form.removeClass("active");
-    })
-    // 侧边浮动栏
-    fixed_item.mouseenter(function(){
-        let getLi = $(this).index();
-        switch(getLi){
-            case 0 : service_pop.addClass("show");
-            break;
-            case 1 : download_pop.addClass("show");
-            break;
-            case 2 : gift_pop.addClass("show");
-            break;
-            case 3 : wxchat_pop.addClass("show");
-            break;
-        }
-    })
-    fixed_item.mouseleave(function(){
-        service_pop.removeClass("show");
-        download_pop.removeClass("show")
-        gift_pop.removeClass("show");
-        wxchat_pop.removeClass("show");
-    })
-})
 
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";         
+} 
+function getCookie(cname) {
+var name = cname + "=";
+var decodedCookie = decodeURIComponent(document.cookie);
+var ca = decodedCookie.split(';');
+for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+    c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+    return c.substring(name.length, c.length);
+    }
+}
+return "";
 
+                
+}
+
+function checkCookie(data) {
+//     var user=getCookie("username");
+    var code=getCookie(`code-${data}`);
+    if (code != "") {
+        var number=getCookie(`number-${data}`);
+        number++;
+        setCookie(`number-${data}`, number, 30);
+        console.log(document.cookie);
+} else {
+        code=data;
+        var number=1;
+        setCookie(`code-${data}`, code, 30);
+        setCookie(`number-${data}`, number, 30);
+    }
+}
 
 //接收一个值
 function oneValues(){
@@ -293,7 +284,7 @@ $(function () {
                                             </div>
                                             <div class="btn-line">
                                                 <div class="buy-btn-container">
-                                                    <a class="m-btns m-btn-middle m-btn-brown" href="javascript:;">加入购物车</a>
+                                                    <a class="m-btns m-btn-middle m-btn-brown" href="javascript:;" data-gid="${item.gid}" id="cart">加入购物车</a>
                                                     <a class="m-btns m-btn-middle m-btn-brown-stroke" href="javascript:;">立即购买</a>
                                                 </div>
                                                 <div class="favor-btn ">
@@ -320,6 +311,89 @@ $(function () {
                 
             })
             $(".detail")[0].innerHTML=html;
+            var btn1 = $("#cart");
+            var btn = document.querySelector("[data-gid]");
+            btn.addEventListener("click",function(){
+                console.log(btn)
+                checkCookie(btn1.data("gid"));
+            });
+            var imgSmall = document.querySelectorAll(".thumb-pic");
+            var imgBig = document.querySelector(".main")
+            imgSmall.forEach(item=>{
+                item.addEventListener("mouseover",function(){
+                    console.log(item)
+                    imgBig.children[0].src = item.children[0].src;
+                    item.style.borderColor = "rgb(132, 95, 63)"
+                })
+                item.addEventListener("mouseleave",function(){
+                    console.log(item)
+                    item.style.borderColor = "rgb(236, 236, 236)"
+                })
+            })
+            
+            // imgSmall.forEach(item => {
+            //     item.addEventListener("click",function(){
+            //         console.log(imgBig[0].children[0].src)
+            //     })
+            // })
         }
     })   
 })
+$(function(){
+    //搜索栏吸顶
+    var m_header = $("#m-header"),
+        set_top = m_header.offset(),
+        search_form = $(".search-form"),
+        search_input = $(".search-input-con input"),
+        fixed_item = $(".m-fixedBar>ul>li"),
+        service_pop = $(".fixed-service-pop"),
+        download_pop = $(".fixed-down-pop"),
+        gift_pop = $(".fixed-gift-pop"),
+        wxchat_pop = $(".fixed-wx-pop"),
+        m_clauses = $("#m-clauses"),
+        site_item = $(".site-item-nav");
+    console.log(site_item);
+    $(document).on("scroll",function(){
+        var header_top = $(document).scrollTop();
+        if(header_top>450){
+            m_header.addClass("m-header-fixed")
+        }else{
+            m_header.removeClass("m-header-fixed")
+        }
+    })
+    m_clauses.mouseenter(function(){
+        site_item.addClass("show");
+    })
+    m_clauses.mouseleave(function(){
+        site_item.removeClass("show");
+    })
+    //搜索选框
+    search_input.focus(function(){
+        search_form.addClass("active");
+    });
+    search_input.blur(function(){
+        search_form.removeClass("active");
+    })
+    // 侧边浮动栏
+    fixed_item.mouseenter(function(){
+        let getLi = $(this).index();
+        switch(getLi){
+            case 0 : service_pop.addClass("show");
+            break;
+            case 1 : download_pop.addClass("show");
+            break;
+            case 2 : gift_pop.addClass("show");
+            break;
+            case 3 : wxchat_pop.addClass("show");
+            break;
+        }
+    })
+    fixed_item.mouseleave(function(){
+        service_pop.removeClass("show");
+        download_pop.removeClass("show")
+        gift_pop.removeClass("show");
+        wxchat_pop.removeClass("show");
+    })
+})
+
+

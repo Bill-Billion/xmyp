@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>购物车</title>
+<link rel="stylesheet" href="./stylesheets/index.css">
+</head>
+<body>
+    <div class="home-warp">
+        <!-- 顶部导航 -->
+        <div class="m-site-top">
+                <div class="container">
+                    <div class="fr">
+                        <div class="fl site-item m-user-con">
+                            <div class="m-no-login">
+                                <a href="./login.html" class="m-safe-anchor">登录</a>
+                                <a href="./register.html" class="m-safe-anchor">注册</a>
+                            </div>
+                        </div>
+                        <span class="fl m-line"></span>
+                        <div class="fl m-help">
+                            <a href="#" class="m-safe-anchor">帮助中心</a>
+                        </div>
+                        <span class="fl m-line"></span>
+                        <div class="fl m-download site-item">
+                            <a href="#" class="m-safe-anchor h-icon-con">
+                                <span class="m-icons m-icons- h-icons h-app-icon m-icons-app"></span>
+                                下载APP
+                            </a>
+                        </div>
+                        <span class="fl m-line"></span>
+                        <div class="fl m-clauses-con" id="m-clauses">
+                            <div class="m-clauses">
+                                <a href="#" class="m-safe-anchor">资质证照&nbsp;/&nbsp;协议规则</a>
+                                <span class="m-icons m-icons-dropdown h-icons h-down-icon"></span>                                
+                            </div>
+                            <div class="site-item-nav">
+                                <ul class="site-nav">
+                                    <li>
+                                        <a rel="nofollow" data-target="_blank" target="_blank" data-src="资质证照" href="https://youpin.mi.com/app/shop/content?id=sb0b29039bf5892b5" class="m-safe-anchor">资质证照</a>
+                                    </li>
+                                    <li>
+                                        <a rel="nofollow" data-target="_blank" target="_blank" data-src="协议规则" href="https://youpin.mi.com/app/shop/content?id=t58169039fac3a096" class="m-safe-anchor">协议规则</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- 顶部搜索 -->
+        <div class="m-header">
+            <div class id="m-header">
+                <div class="container clearfix">
+                    <div class="m-header-top">
+                        <div class="m-logo m-tag-a"></div>
+                        <div class="nav-part"></div>
+                        <ul class="tab-list">
+                            <li class="tab-item">限时抢购</li>
+                            <li class="tab-item">星品驾到</li>
+                        </ul>
+                        <div class="m-search">
+                            <div class="search-form">
+                                <a href="" class="m-icons m-icons-search-hover search-icon"></a>
+                                <div class="search-input-con">
+                                    <input type="text" placeholder="搜一搜">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-card-wrap fr">
+                            <div class="m-card-mini">
+                                <a href="" class="m-icons m-icons-cart-hover"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 购物车列表 -->
+        <div class="express-append">
+            <div class="container">
+                <div class="m-secondary-navigator">
+                    <span>
+                        <a href="/">首页</a>
+                    </span>
+                    >
+                    <span>
+                        <a href="#">购物车</a>
+                    </span>
+                </div>
+            </div>
+            <div class="has-good-container container" id="cart_container">
+                <div class="title" id="good-title">
+                    <a class="m-icons m-icons-check-active select-icon" data-src="" href="javascript:;"></a>
+                    <span class="all-txt">全选</span>
+                    <span class="product">商品信息</span>
+                    <span class="price">单价</span><span class="num">数量</span>
+                    <span class="total">金额</span><span class="edit">操作</span>
+                </div>
+                <div class="cart-merchant-list" id="merchantList">
+                    <!-- <div>
+                        <div class="merchant-item-container">
+                            <div class="merchant-info">
+                                <a class="m-icons m-icons-check-active select-icon" data-src="" href="javascript:;"></a>
+                                <span class="name" data-src="/flagshipstore?id=1&amp;title=小米自营(特殊商品)">小米自营(特殊商品)</span>
+                                <div class="postmarginright mijiapost">
+                                    <span><span class="postimg">!</span>已免运费</span>
+                                    <span class="layer hide">小米/米家自营商品单笔订单支付金额满150元（以实际付款金额为准，代金券等不含在内）起包邮。小米电视、小米体重秤等因商品特殊性不参与满150元包邮，另小米电视系列产品需要单独配送费，请参见具体商品产品详情页说明。</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="good-item-container cart-goods-con">
+                                    <div class="merchant-reduce-top"></div>
+                                    <div class="cart-good-items clearfix">
+                                        <div class="select">
+                                            <a class="m-icons m-icons-check-active select-icon" data-src="" href="javascript:;"></a>
+                                        </div>
+                                        <div class="image" data-src="/detail?gid=104365&amp;pid=20093" data-target="_blank">
+                                            <img class="" src="//i1.mifile.cn/a1/pms_1524621229.56695068.jpg?t=webp" data-src="//i1.mifile.cn/a1/pms_1524621229.56695068.jpg?t=webp" alt="小米6X 全网通版 6GB内存 64GB 樱花粉">
+                                        </div>
+                                        <div class="name" data-src="/detail?gid=104365&amp;pid=20093" data-target="_blank">
+                                            <div class="vertical-wrap">
+                                                <p class="good-name brown-hover">小米6X 全网通版 6GB内存 64GB 樱花粉</p>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <span>￥1299</span>
+                                        </div>
+                                        <div class="num">
+                                            <div class="can-edit">
+                                                <div class="num-reduce-add" style="width: 134px;">
+                                                    <a class="m-icons m-icons-reduce minus-plus" data-src="" href="javascript:;"></a>
+                                                    <span class="txt" style="width: 70px;">1</span>
+                                                    <a class="m-icons m-icons-add-active minus-plus" data-src="" href="javascript:;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="subtotal">
+                                            <span>￥1299</span>
+                                        </div>
+                                        <div class="del">
+                                            <a class="m-icons m-icons-close-hover icon" data-src="" href="javascript:;"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="cart-total bottom-total fixed-to-bottom">
+                    <div class="ico fl">
+                        <a class="m-icons m-icons-check-active select-icon" data-src="" href="javascript:;"></a>
+                        <span class="select-text">全选</span>
+                        <span class="already-select">已选2件</span>
+                    </div>
+                    <div class="totol-price-con no-reduce">
+                        <span class="total-after-prefer">
+                            <span>合计：</span>￥1299.00
+                        </span>
+                    </div>
+                    <span class="checkout  fr">去结算</span>
+                </div>
+            </div>
+        </div>
+        <!-- 侧边栏 -->
+        <div class="m-fixedBar">
+            <ul>
+                <!-- 联系客服 -->
+                <li>
+                    <a class="m-icons m-icons- m-icons-service-fixed"></a>
+                    <p>联系客服</p>
+                    <div class="fixed-pop fixed-service-pop">
+                        <div class="pop-inner">
+                            <p class="info-title">小米有品平台问题，建议反馈，商户和物流问题投诉等请拨打 小米有品客服热线</p>
+                            <p class="info-phone">400-100-1199</p>
+                            <p class="info-day">(周一至周日 8：00-18：00)</p>
+                            <p class="info-des">小米/米家自营品牌，手机电视智能硬件商品或订单发货/退款售后问题 请拨打小米自营客服热线</p>
+                            <p class="info-phone">400-100-5678</p><p class="info-day">(周一至周日 8：00-18：00)</p>
+                        </div>
+                        <a class="m-icons m-icons-arrow-right " data-src="" href="javascript:;"></a>
+                    </div>
+                </li>
+                <!-- 下载 -->
+                <li>
+                    <a class="m-icons m-icons- m-icons-download"></a>
+                    <p>下载<br/>APP</p>
+                    <div class="fixed-pop fixed-down-pop ">
+                        <div class="pop-inner">
+                            <img class="qr-code" src="https://shop.io.mi-img.com/static/h5/static3/media/code.90b4b51a.png" alt="qr-code">
+                            <p class="site-info">下载小米有品APP<br>得新人礼包</p>
+                        </div>
+                        <a class="m-icons m-icons-arrow-right " data-src="" href="javascript:;"></a>
+                    </div>
+                </li>
+                <!-- 新人有礼 -->
+                <li>
+                    <a class="m-icons m-icons- m-icons-gift"></a>
+                    <p>新人有礼</p>
+                    <div class="fixed-pop fixed-gift-pop ">
+                        <div class="pop-inner">
+                            <div class="gift-bg"></div>
+                            <img class="qr-code" src="https://shop.io.mi-img.com/static/h5/static3/media/code.90b4b51a.png" alt="qr-code">
+                            <p class="site-info">立即扫码下载·小米有品 APP</p>
+                        </div>
+                        <a class="m-icons m-icons-arrow-right " data-src="" href="javascript:;"></a>
+                    </div>
+                </li>
+                <!-- 绿色应用 -->
+                <li>
+                    <a class="m-icons m-icons- m-icons-wx-chat"></a>
+                    <p>关注微信</p>
+                    <div class="fixed-pop fixed-wx-pop ">
+                        <div class="pop-inner">
+                            <img class="qr-code" src="https://shop.io.mi-img.com/static/h5/static3/media/wx_code.d0d26888.jpg" alt="qr-code">
+                            <p class="site-info">扫码关注【小米有品生活电商】微信服务号，赢取小爱mini活动哦</p>
+                        </div>
+                        <a class="m-icons m-icons-arrow-right " data-src="" href="javascript:;"></a>
+                    </div>
+                </li>
+                <li>
+                    <a class="m-icons m-icons- m-icons-top"></a>
+                    <p>回到顶部</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./scripts/common.js"></script>
+<script src="./scripts/cookie.js"></script>
+<script>
+    $(function(){
+    //搜索栏吸顶
+    var m_header = $("#m-header"),
+        set_top = m_header.offset(),
+        search_form = $(".search-form"),
+        search_input = $(".search-input-con input"),
+        fixed_item = $(".m-fixedBar>ul>li"),
+        service_pop = $(".fixed-service-pop"),
+        download_pop = $(".fixed-down-pop"),
+        gift_pop = $(".fixed-gift-pop"),
+        wxchat_pop = $(".fixed-wx-pop"),
+        m_clauses = $("#m-clauses"),
+        site_item = $(".site-item-nav");
+    // console.log(site_item);
+    $(document).on("scroll",function(){
+        var header_top = $(document).scrollTop();
+        if(header_top>450){
+            m_header.addClass("m-header-fixed")
+        }else{
+            m_header.removeClass("m-header-fixed")
+        }
+    })
+    m_clauses.mouseenter(function(){
+        site_item.addClass("show");
+    })
+    m_clauses.mouseleave(function(){
+        site_item.removeClass("show");
+    })
+    //搜索选框
+    search_input.focus(function(){
+        search_form.addClass("active");
+    });
+    search_input.blur(function(){
+        search_form.removeClass("active");
+    })
+    // 侧边浮动栏
+    fixed_item.mouseenter(function(){
+        let getLi = $(this).index();
+        switch(getLi){
+            case 0 : service_pop.addClass("show");
+            break;
+            case 1 : download_pop.addClass("show");
+            break;
+            case 2 : gift_pop.addClass("show");
+            break;
+            case 3 : wxchat_pop.addClass("show");
+            break;
+        }
+    })
+    fixed_item.mouseleave(function(){
+        service_pop.removeClass("show");
+        download_pop.removeClass("show")
+        gift_pop.removeClass("show");
+        wxchat_pop.removeClass("show");
+    })
+})
+</script>
+</html>
