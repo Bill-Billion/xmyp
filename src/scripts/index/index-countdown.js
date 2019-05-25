@@ -1,3 +1,4 @@
+//倒计时
 let totalTime = 3600;
 let count = setInterval(function(){
     totalTime--;

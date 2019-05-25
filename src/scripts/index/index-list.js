@@ -7,6 +7,9 @@ $(function(){
             console.log(getLi);
         })
     }); 
+    $( "#goTop").click( function () {
+        $( "html,body").animate({ "scrollTop" : 0 }, 1000);
+    });
     nav_item.mouseenter(function(){nav_detail.addClass("show")});
     nav_detail.mouseenter(function(){nav_detail.addClass("show");})
     nav_item.mouseleave(function(){nav_detail.removeClass("show")})

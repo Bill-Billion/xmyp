@@ -17,7 +17,7 @@ $(function () {
       $.each(data, function (i, item) {
         count++; // console.log(item.tags===undefined);
 
-        html += " <div class=\"swiper-slide\">\n                                <div class=\"m-goods-item-container \" >\n                                    <div class=\"bigtrap-img-tag-container\">\n                                        <div class=\"img-tag\">\n                                            <span>".concat(item.discount_desc, "</span>\n                                        </div>\n                                        <div class=\"small-item-img\">\n                                            <div class=\"m-product-image-container undefined\" style=\"width: 266px; height: 266px;\" data-src=\"https://img.youpin.mi-img.com/pic_square/100435_c4206322728fa4b38cee7b8de7356752.jpg\">\n                                                <div class=\"img-container-s\" style=\"width: 266px; height: 266px;\">\n                                                    <img src=\"").concat(item.imgs.img_square, "\" data-src=\"https://img.youpin.mi-img.com/pic_square/100435_c4206322728fa4b38cee7b8de7356752.jpg\" alt=\"").concat(item.name, "\" style=\"width: 266px; height: 266px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"bigtrap-box\">\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.flash_price / 100, "</span>\n                                            <span class=\"pro-flag\">\u8D77</span>\n                                            <span class=\"market-price\">\n                                                <span class=\"pro-unit\">\xA5</span>\n                                                <span class=\"m-num\">").concat(item.market_price / 100, "</span>\n                                            </span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </div>");
+        html += " <a href=\"detail.html?values=".concat(item.gid, "\">\n                            <div class=\"swiper-slide\">\n                                <div class=\"m-goods-item-container \" >\n                                    <div class=\"bigtrap-img-tag-container\">\n                                        <div class=\"img-tag\">\n                                            <span>").concat(item.discount_desc, "</span>\n                                        </div>\n                                        <div class=\"small-item-img\">\n                                            <div class=\"m-product-image-container undefined\" style=\"width: 266px; height: 266px;\" data-src=\"https://img.youpin.mi-img.com/pic_square/100435_c4206322728fa4b38cee7b8de7356752.jpg\">\n                                                <div class=\"img-container-s\" style=\"width: 266px; height: 266px;\">\n                                                    <img src=\"").concat(item.imgs.img_square, "\" data-src=\"https://img.youpin.mi-img.com/pic_square/100435_c4206322728fa4b38cee7b8de7356752.jpg\" alt=\"").concat(item.name, "\" style=\"width: 266px; height: 266px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"bigtrap-box\">\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.flash_price / 100, "</span>\n                                            <span class=\"pro-flag\">\u8D77</span>\n                                            <span class=\"market-price\">\n                                                <span class=\"pro-unit\">\xA5</span>\n                                                <span class=\"m-num\">").concat(item.market_price / 100, "</span>\n                                            </span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </div>\n                            </a>");
       });
       $(".p-trap-wrap .swiper-wrapper")[0].innerHTML = html;
       changeStyle();
@@ -131,13 +131,16 @@ function goPrev(evt, num, next, prev, good) {
   judgeClick(num, next, prev, good);
 }
 
-var timeSet = setInterval(function () {
-  bannerNext(banner_slide);
-}, 3500); // timer = setInterval(function (){
+function autoPlay() {
+  timer = setInterval(function () {
+    bannerNext(banner_slide);
+  }, 3500);
+} // timer = setInterval(function (){
 //     count1++;
 //     if(count1==banner_img.length){count1=0};
 //     banner_img.eq(count1).trigger("click");
 // },1000);
+
 
 banner_next.click(function () {
   bannerNext(banner_slide);
@@ -145,6 +148,14 @@ banner_next.click(function () {
 banner_prev.click(function () {
   bannerPrev(banner_slide);
 });
+autoPlay();
+banner_slide.mouseenter(function () {
+  clearTimeout(timer);
+});
+banner_slide.mouseleave(function () {
+  autoPlay();
+}); //倒计时
+
 var totalTime = 3600;
 var count = setInterval(function () {
   totalTime--;
@@ -308,7 +319,7 @@ $(function () {
       $.each(data, function (i, item) {
         count++; // console.log(item.tags===undefined);
 
-        html += " <div class=\"swiper-slide\">\n                                <div class=\"m-goods-item-container\" >\n                                    <div class=\"bigtrap-img-tag-container\">\n                                        <div class=\"small-item-img\">\n                                            <div class=\"m-product-image-container undefined\" style=\"width: 266px; height: 266px;\" data-src=\"".concat(item.imgs.img_square, "\">\n                                                <div class=\"img-container-s\" style=\"width: 266px; height: 266px;\">\n                                                    <img src=\"").concat(item.imgs.img_square, "\" data-src=\"").concat(item.imgs.img_square, "\" alt=\"").concat(item.name, "\" style=\"width: 266px; height: 266px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"m-goods-common-box\">\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-desc\" title=\"").concat(item.summary, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.summary, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.price_min / 100, "</span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </div>");
+        html += " <a href=\"detail.html?values=".concat(item.gid, "\">\n                            <div class=\"swiper-slide\">\n                                <div class=\"m-goods-item-container\" >\n                                    <div class=\"bigtrap-img-tag-container\">\n                                        <div class=\"small-item-img\">\n                                            <div class=\"m-product-image-container undefined\" style=\"width: 266px; height: 266px;\" data-src=\"").concat(item.imgs.img_square, "\">\n                                                <div class=\"img-container-s\" style=\"width: 266px; height: 266px;\">\n                                                    <img src=\"").concat(item.imgs.img_square, "\" data-src=\"").concat(item.imgs.img_square, "\" alt=\"").concat(item.name, "\" style=\"width: 266px; height: 266px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"m-goods-common-box\">\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-desc\" title=\"").concat(item.summary, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.summary, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.price_min / 100, "</span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </div>\n                            </a>");
       });
       $(".h-hot-sec .swiper-wrapper")[0].innerHTML = html;
       changeStyle();
@@ -339,6 +350,11 @@ $(function () {
       var getLi = $(this).index();
       console.log(getLi);
     });
+  });
+  $("#goTop").click(function () {
+    $("html,body").animate({
+      "scrollTop": 0
+    }, 1000);
   });
   nav_item.mouseenter(function () {
     nav_detail.addClass("show");
@@ -435,7 +451,7 @@ $(function () {
       $.each(data, function (i, item) {
         count++; // console.log(item.tags===undefined);
 
-        html += " <div class=\"swiper-slide\">\n                                <div class=\"m-goods-item-container\" >\n                                    <div class=\"bigtrap-img-tag-container\">\n                                        <div class=\"small-item-img\">\n                                            <div class=\"m-product-image-container undefined\" style=\"width: 266px; height: 266px;\" data-src=\"".concat(item.imgs.img_square, "\">\n                                                <div class=\"img-container-s\" style=\"width: 266px; height: 266px;\">\n                                                    <img src=\"").concat(item.imgs.img_square, "\" data-src=\"").concat(item.imgs.img_square, "\" alt=\"").concat(item.name, "\" style=\"width: 266px; height: 266px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"m-goods-common-box\">\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-desc\" title=\"").concat(item.summary, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.summary, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.price_min / 100, "</span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </div>");
+        html += " <a href=\"detail.html?values=".concat(item.gid, "\">\n                            <div class=\"swiper-slide\">\n                                <div class=\"m-goods-item-container\" >\n                                    <div class=\"bigtrap-img-tag-container\">\n                                        <div class=\"small-item-img\">\n                                            <div class=\"m-product-image-container undefined\" style=\"width: 266px; height: 266px;\" data-src=\"").concat(item.imgs.img_square, "\">\n                                                <div class=\"img-container-s\" style=\"width: 266px; height: 266px;\">\n                                                    <img src=\"").concat(item.imgs.img_square, "\" data-src=\"").concat(item.imgs.img_square, "\" alt=\"").concat(item.name, "\" style=\"width: 266px; height: 266px;\">\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"m-goods-common-box\">\n                                        <p class=\"pro-info\" title=\"").concat(item.name, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.name, "</p>\n                                        <p class=\"pro-desc\" title=\"").concat(item.summary, "\" style=\"overflow: hidden;text-overflow:ellipsis;white-space: nowrap;\">").concat(item.summary, "</p>\n                                        <p class=\"pro-price\">\n                                            <span class=\"pro-unit\">\xA5</span>\n                                            <span class=\"m-num\">").concat(item.price_min / 100, "</span>\n                                        </p>\n                                    </div>\n                                </div>\n                            </div>\n                            </a>");
         $(".h-new-sec .swiper-wrapper")[0].innerHTML = html;
         changeStyle();
       });

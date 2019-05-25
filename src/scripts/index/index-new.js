@@ -13,7 +13,8 @@ $(function () {
                 count++;
                 // console.log(item.tags===undefined);
                 
-                    html+=` <div class="swiper-slide">
+                    html+=` <a href="detail.html?values=${item.gid}">
+                            <div class="swiper-slide">
                                 <div class="m-goods-item-container" >
                                     <div class="bigtrap-img-tag-container">
                                         <div class="small-item-img">
@@ -33,7 +34,8 @@ $(function () {
                                         </p>
                                     </div>
                                 </div>
-                            </div>`;
+                            </div>
+                            </a>`;
                             
                 $(".h-new-sec .swiper-wrapper")[0].innerHTML=html;
                 changeStyle();

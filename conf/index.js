@@ -15,6 +15,9 @@ module.exports = {
             },
             "detail" : {
                    src : "./src/scripts/detail/"
+            },
+            "cookie" : {
+                   src : "./src/scripts/cookie/"
             }
       },
       scss : {

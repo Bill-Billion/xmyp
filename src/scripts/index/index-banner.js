@@ -84,9 +84,12 @@
         });
         judgeClick(num,next,prev,good);
     }
-    var timeSet = setInterval(() => {
-        bannerNext(banner_slide);
-    }, 3500);
+    function autoPlay(){
+        timer = setInterval(() => {
+            bannerNext(banner_slide);
+        }, 3500);
+    }  
+    
     // timer = setInterval(function (){
     //     count1++;
     //     if(count1==banner_img.length){count1=0};
@@ -95,6 +98,13 @@
 
     banner_next.click(function(){bannerNext(banner_slide);});
     banner_prev.click(function(){bannerPrev(banner_slide);});
+    autoPlay();
+    banner_slide.mouseenter(function(){
+        clearTimeout(timer);
+    });
+    banner_slide.mouseleave(function(){
+        autoPlay();
+    });
     
     
  

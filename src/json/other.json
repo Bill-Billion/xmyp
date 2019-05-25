@@ -1,0 +1,793 @@
+[{
+    "gid": 104837,
+    "name": "OJJ智能门锁X1",
+    "style" :"颜色" ,
+    "price": 106900,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/fe9d7543639b97738a5af7cced678617.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=104837",
+    "price_min": 106900,
+    "market_price": 106900,
+    "iid": "g%3D104837%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D104837",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/fe9d7543639b97738a5af7cced678617.png",
+        "img_square": "https://img.youpin.mi-img.com/800_pic/3f2080e596aa70f76b0d78627c23c57f.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/800_pic/ad38c24dc53d8dd2a3bbf4ccfa26594a.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/fe9d7543639b97738a5af7cced678617.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/afc3e32d7749320b8c42f728135f8c32.png"
+    },
+    "tags": null,
+    "summary": "活体指纹识别，联动米家设备，金融级别加密",
+    "attr_ext": {
+        "custom_name": "OJJ智能门锁X1",
+        "price_tag": 0,
+        "red_words": "【评价有礼】购买OJJ智能门锁X1安装后评价晒图（15字+3张图）并截图联系OJJ在线客服登记确认即得返现30元（每个订单仅可获得一次返现）。",
+        "custom_summary": "活体指纹识别，联动米家设备",
+        "consignor": "65"
+    }
+},
+{
+    "gid": 100965,
+    "name": "负离子护发电吹风",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/4d0ee77a57bcae4a1e4202956a8cda66.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=100965",
+    "price_min": 15900,
+    "price": 15900,
+    "market_price": 16900,
+    "iid": "g%3D100965%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D100965",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/4d0ee77a57bcae4a1e4202956a8cda66.png",
+        "img_square": "https://img.youpin.mi-img.com/800_pic/17b86416470db6bd3ac398f51b48cf57.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/800_pic/1a1ca0d6f625b5516dc88b2fca778760.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/4d0ee77a57bcae4a1e4202956a8cda66.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/67bbe22fa9ebb3ea44d61c7298dc73b5.png"
+    },
+    "tags": [
+        {
+            "label_id": 87,
+            "name": "直降10元",
+            "type": "sale",
+            "text": "直降10元",
+            "ext": {
+                "price": "1000"
+            },
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#d96b6c",
+                "priority": 5,
+                "display_status": 1
+            },
+            "color": "#d96b6c",
+            "img_url": ""
+        },
+        {
+            "label_id": 130,
+            "name": "满件折",
+            "type": "sale",
+            "text": "满件折",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#d96b6c",
+                "priority": 4,
+                "display_status": 1
+            },
+            "color": "#d96b6c",
+            "img_url": ""
+        }
+    ],
+    "summary": "超大风量速干，双倍负离子，专利风道设计",
+    "attr_ext": {
+        "custom_name": "负离子护发电吹风",
+        "price_tag": 1,
+        "custom_summary": "超大风量速干，双倍负离子",
+        "consignor": "65"
+    }
+},
+{
+    "gid": 100622,
+    "name": "鹿客智能指纹锁Classic",
+    "style" :"颜色" ,
+    "pic_url": "http://img.youpin.mi-img.com/800_pic/100622_7c82677aaaa8aaa0c2a42815cdf84192.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=100622",
+    "price_min": 169900,
+    "price": 169900,
+    "market_price": 169900,
+    "iid": "g%3D100622%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D100622",
+    "imgs": {
+        "img800": "http://img.youpin.mi-img.com/800_pic/100622_7c82677aaaa8aaa0c2a42815cdf84192.png",
+        "img_square": "https://img.youpin.mi-img.com/pic_square/100622_b16fe2c771ed7ed0084fcf91dcb65fcb.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/pic_horizon/100622_2072e7fb567999167510f91ad59ebf23.jpg",
+        "img_safe_area_url": "http://img.youpin.mi-img.com/800_pic/100622_7c82677aaaa8aaa0c2a42815cdf84192.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/14509d8b5a51143239cfd8db2b9ca698.png"
+    },
+    "tags": null,
+    "summary": "活体指纹识别，隐藏式设计，联动智能家居，安全防破",
+    "color_num": 2,
+    "attr_ext": {
+        "custom_name": "鹿客智能指纹锁Classic",
+        "price_tag": 0,
+        "red_words": "【劲爆特惠，好评3万】安装后评价晒图（30字+3张图）并联系商家客服登记确认，赠送价值79元Yeelight小夜灯，每个订单仅限赠送一次赠品。",
+        "custom_summary": "活体指纹识别，隐藏式设计",
+        "consignor": "65"
+    }
+},
+{
+    "gid": 106735,
+    "name": "勝 中式清酒250ml/490ml/740ml",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/08cf801d7fafe6505240e350838f6454.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=106735",
+    "price_min": 4900,
+    "price": 4900,
+    "market_price": 4900,
+    "iid": "g%3D106735%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D106735",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/08cf801d7fafe6505240e350838f6454.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/3ce93057b468706bb4165d699ef16105.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/903ca7a71e4899b8c787ac16b1855355.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/08cf801d7fafe6505240e350838f6454.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/beebe1eac4fcdc7ac7615868c4fdcbfb.png"
+    },
+    "tags": [
+        {
+            "label_id": 130,
+            "name": "满件折",
+            "type": "sale",
+            "text": "满件折",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#d96b6c",
+                "priority": 4,
+                "display_status": 1
+            },
+            "color": "#d96b6c",
+            "img_url": ""
+        }
+    ],
+    "summary": "38%精米步合，纯米大吟酿，更符合中国人口味的好清酒",
+    "attr_ext": {
+        "custom_name": "勝 中式清酒250ml/490ml/740ml",
+        "price_tag": 1,
+        "custom_summary": "38%精米步合，低度利口",
+        "consignor": "65"
+    }
+},
+{
+    "gid": 104792,
+    "name": "米家互联网变频空调 1.5匹",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/a28f9c885d9db24343f87e420340d21e.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=104792",
+    "price_min": 219900,
+    "price": 219900,
+    "market_price": 269900,
+    "iid": "g%3D104792%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D104792",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/a28f9c885d9db24343f87e420340d21e.png",
+        "img_square": "https://img.youpin.mi-img.com/800_pic/45599321c5f25187151c4a2ba387e9bc.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/800_pic/53a0b72075d2f0c56bb3a6768c59bd06.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/a28f9c885d9db24343f87e420340d21e.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/42e758cb281a47b71292caff91212ffc.png"
+    },
+    "tags": [
+        {
+            "label_id": 87,
+            "name": "直降500元",
+            "type": "sale",
+            "text": "直降500元",
+            "ext": {
+                "price": "50000"
+            },
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#d96b6c",
+                "priority": 5,
+                "display_status": 1
+            },
+            "color": "#d96b6c",
+            "img_url": ""
+        }
+    ],
+    "recommend": "{{直降500元}}",
+    "summary": "一级能效，全直流变频，高效冷热，智能操控，精准控温，节能省电",
+    "attr_ext": {
+        "custom_name": "米家互联网变频空调 1.5匹",
+        "price_tag": 0,
+        "custom_summary": "一级能效，全直流，高效冷热"
+    }
+},
+{
+    "gid": 104843,
+    "name": "米家洗烘一体机10kg",
+    "style" :"颜色" ,
+    "price": 199900,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/ff6291cf5f8a30401bddfb66691af20f.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=104843",
+    "price_min": 199900,
+    "market_price": 219900,
+    "iid": "g%3D104843%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D104843",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/ff6291cf5f8a30401bddfb66691af20f.png",
+        "img_square": "https://img.youpin.mi-img.com/800_pic/4a5b3385e02e13cb86a99e985c3a1c4d.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/800_pic/67788fa20be68d36b49d65c75d0c199c.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/ff6291cf5f8a30401bddfb66691af20f.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/a921c9972eb9562dbb585daace0c9f3b.png"
+    },
+    "tags": [
+        {
+            "label_id": 87,
+            "name": "直降200元",
+            "type": "sale",
+            "text": "直降200元",
+            "ext": {
+                "price": "20000"
+            },
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#d96b6c",
+                "priority": 5,
+                "display_status": 1
+            },
+            "color": "#d96b6c",
+            "img_url": ""
+        }
+    ],
+    "recommend": "{{直降200元}}",
+    "summary": "国标A+级洗净能力 1级能效 21种洗烘模式 智能空气洗 烘干除菌率达99.9%",
+    "attr_ext": {
+        "custom_name": "米家洗烘一体机10kg",
+        "price_tag": 0,
+        "red_words": "【有品App火爆预售中，请前往App查看】"
+    }
+},
+{
+    "gid": 103250,
+    "pid": 15439,
+    "style" :"颜色" ,
+    "name": "帝泊洱C胞活力饮用天然矿泉水  330ml*24瓶",
+    "img": "https://img.youpin.mi-img.com/800_pic/540f3072104cf0ec3e1114f3db74e64a.png",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/540f3072104cf0ec3e1114f3db74e64a.png",
+        "img_square": "https://img.youpin.mi-img.com/pic_square/103250_80f2393fc0cf4247982853a01fa04408.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/pic_horizon/103250_2802e822e36b773533410485e478e16b.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/540f3072104cf0ec3e1114f3db74e64a.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/c40d25d9dd3102cf4e73c6f8bc921d58.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 14400,
+    "price": 7900,
+    "flash_price": 7900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=103250&pid=15439",
+    "attr_ext": {
+        "custom_name": "帝泊洱C胞活力饮用天然矿泉水  330ml*24瓶",
+        "price_tag": 0,
+        "custom_summary": "长白山稀有水源，宝宝安心饮用"
+    },
+    "iid": "g%3D103250%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D103250%2526pid%253D15439",
+    "discount_desc": "5.5折"
+},
+{
+    "gid": 105959,
+    "pid": 33027,
+    "style" :"颜色" ,
+    "name": "男士纯色圆领短袖",
+    "img": "https://img.youpin.mi-img.com/800_pic/ca127de6c0c2553136e4328e05962e1a.png",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/ca127de6c0c2553136e4328e05962e1a.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/ff400ff9b9bd9db73fbbc5d0b8b15f42.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/74314ce83a9adaaf404a3e7035e74707.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/ca127de6c0c2553136e4328e05962e1a.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/ca127de6c0c2553136e4328e05962e1a.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 7900,
+    "flash_price": 4500,
+    "price": 4500,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=105959&pid=33027",
+    "attr_ext": {
+        "custom_name": "男士纯色圆领短袖",
+        "price_tag": 1,
+        "custom_summary": "吸汗透气，舒适微弹，经典百搭"
+    },
+    "iid": "g%3D105959%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D105959%2526pid%253D33027",
+    "discount_desc": "5.7折"
+},
+{
+    "gid": 106268,
+    "pid": 36119,
+    "name": "飞织全防水户外徒步鞋",
+    "style" :"颜色" ,
+    "img": "https://img.youpin.mi-img.com/800_pic/64d5380103c5de7d846e7070ff537264.png",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/64d5380103c5de7d846e7070ff537264.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/c11bb5f99e415ea07e706aaf3e45537d.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/8dd84d641754dae012e0c5254474c16c.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/64d5380103c5de7d846e7070ff537264.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/c12d7fefc2544cbe6f4279f6fcadb165.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 49900,
+    "price": 29900,
+    "flash_price": 29900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=106268&pid=36119",
+    "attr_ext": {
+        "custom_name": "飞织全防水户外徒步鞋",
+        "price_tag": 0,
+        "custom_summary": "轻盈舒适，防水透气，防滑减震",
+        "consignor": "65"
+    },
+    "iid": "g%3D106268%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D106268%2526pid%253D36119",
+    "discount_desc": "6.0折"
+},
+{
+    "gid": 101610,
+    "pid": 9389,
+    "name": "抽绳式垃圾袋",
+    "style" :"颜色" ,
+    "img": "http://img.youpin.mi-img.com/800_pic/101610_1ifq04ikh5fh3.png",
+    "imgs": {
+        "img800": "http://img.youpin.mi-img.com/800_pic/101610_1ifq04ikh5fh3.png",
+        "img_square": "https://img.youpin.mi-img.com/pic_square/101610_3447d0571ef97935fa54366ec50c4ac0.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/pic_horizon/101610_8073cdf4e0450132e0683cd40a9f02bd.jpg",
+        "img_safe_area_url": "http://img.youpin.mi-img.com/800_pic/101610_1ifq04ikh5fh3.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/e0a8f0430d8e5e71832d849019409b4a.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 4900,
+    "price": 2900,
+    "flash_price": 2900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=101610&pid=9389",
+    "attr_ext": {
+        "custom_name": "抽绳式垃圾袋",
+        "price_tag": 1,
+        "custom_summary": "6卷/箱， 10卷/箱"
+    },
+    "iid": "g%3D101610%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D101610%2526pid%253D9389",
+    "discount_desc": "6.0折"
+},
+{
+    "gid": 101774,
+    "pid": 10034,
+    "name": "四面弹皮肤风衣",
+    "style" :"颜色" ,
+    "img": "http://img.youpin.mi-img.com/800_pic/101774_310d6c346b965a72591475ccb64eaa6d.png",
+    "imgs": {
+        "img800": "http://img.youpin.mi-img.com/800_pic/101774_310d6c346b965a72591475ccb64eaa6d.png",
+        "img_square": "https://img.youpin.mi-img.com/pic_square/101774_c84114b9297b85851828cd255877731f.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/pic_horizon/101774_57d1d9fef87f42dde568c76539f1327e.jpg",
+        "img_safe_area_url": "http://img.youpin.mi-img.com/800_pic/101774_310d6c346b965a72591475ccb64eaa6d.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/1fe6b909db20771fa310f54d455a584d.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 19900,
+    "flash_price": 12900,
+    "price": 12900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=101774&pid=10034",
+    "attr_ext": {
+        "custom_name": "四面弹皮肤风衣",
+        "price_tag": 1,
+        "consignor": "65",
+        "custom_summary": "防晒透气，超薄四面弹，防泼水"
+    },
+    "iid": "g%3D101774%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D101774%2526pid%253D10034",
+    "discount_desc": "6.5折"
+},
+{
+    "gid": 104021,
+    "pid": 22205,
+    "name": "佳油 有机菜籽油",
+    "style" :"颜色" ,
+    "img": "https://img.youpin.mi-img.com/800_pic/b13cb208f4f51d22314f77557471fcff.png",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/b13cb208f4f51d22314f77557471fcff.png",
+        "img_square": "https://img.youpin.mi-img.com/800_pic/de7dc080a7d658a349a4cc873aad68fd.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/800_pic/535c818101a740e5641b459dabb8ed84.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/b13cb208f4f51d22314f77557471fcff.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/b13cb208f4f51d22314f77557471fcff.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 5500,
+    "flash_price": 3900,
+    "price": 3900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=104021&pid=22205",
+    "attr_ext": {
+        "custom_name": "佳油 有机菜籽油",
+        "price_tag": 1,
+        "red_words": "有机认证 玻璃环保油瓶 宝宝适用",
+        "consignor": "65"
+    },
+    "iid": "g%3D104021%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D104021%2526pid%253D22205",
+    "discount_desc": "7.1折"
+},
+{
+    "gid": 102842,
+    "pid": 14460,
+    "name": "8H天然乳胶舒压按摩枕Z3",
+    "style" :"颜色" ,
+    "img": "https://img.youpin.mi-img.com/800_pic/685cbca497ea2816a1c1326f84f9b6cd.png",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/685cbca497ea2816a1c1326f84f9b6cd.png",
+        "img_square": "https://img.youpin.mi-img.com/pic_square/102842_2ef7619a6e4b9e965edaa4db1eaebe15.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/pic_horizon/102842_828a779e4c213b3582a217ce898c8fd0.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/685cbca497ea2816a1c1326f84f9b6cd.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/685cbca497ea2816a1c1326f84f9b6cd.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 23900,
+    "flash_price": 18900,
+    "price": 18900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=102842&pid=14460",
+    "attr_ext": {
+        "custom_name": "8H天然乳胶舒压按摩枕Z3",
+        "price_tag": 0,
+        "custom_summary": "指腹式按摩感，SPA级的睡眠"
+    },
+    "iid": "g%3D102842%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D102842%2526pid%253D14460",
+    "discount_desc": "8.0折"
+},
+{
+    "gid": 101956,
+    "pid": 10821,
+    "name": "搅拌料理机",
+    "style" :"颜色" ,
+    "img": "http://img.youpin.mi-img.com/800_pic/101956_esx7cj1n1len.png",
+    "imgs": {
+        "img800": "http://img.youpin.mi-img.com/800_pic/101956_esx7cj1n1len.png",
+        "img_square": "https://img.youpin.mi-img.com/pic_square/101956_e71b34f482184e01a904953b7b77d059.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/pic_horizon/101956_273026c9505ed7db1081aab730e19cd8.jpg",
+        "img_safe_area_url": "http://img.youpin.mi-img.com/800_pic/101956_esx7cj1n1len.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/0c863061d866c0b089f57ea083cf8e18.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 19900,
+    "flash_price": 15900,
+    "price": 15900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=101956&pid=10821",
+    "attr_ext": {
+        "custom_name": "搅拌料理机",
+        "price_tag": 0,
+        "custom_summary": "6刀粉碎更细腻，安全按压启动"
+    },
+    "iid": "g%3D101956%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D101956%2526pid%253D10821",
+    "discount_desc": "8.0折"
+},
+{
+    "gid": 102830,
+    "pid": 14390,
+    "name": "极米H2家庭智能投影",
+    "style" :"颜色" ,
+    "img": "https://img.youpin.mi-img.com/800_pic/b5cc1af25f31e6be471919a8a6c5a8d8.png",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/b5cc1af25f31e6be471919a8a6c5a8d8.png",
+        "img_square": "https://img.youpin.mi-img.com/pic_square/102830_d67a1c96ab9038f6dee22b8e63098089.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/pic_horizon/102830_bf37e0544d78225b4ddba7056ee5ca77.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/b5cc1af25f31e6be471919a8a6c5a8d8.png@base@tag=imgscale&m=0&w=640&et=1ð=800&etw=800&etc=transparent",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/29d775fd9d646c917e226acf539c8a56.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 499900,
+    "flash_price": 404900,
+    "price": 404900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=102830&pid=14390",
+    "attr_ext": {
+        "custom_name": "极米H2家庭智能投影",
+        "price_tag": 0,
+        "custom_summary": "高清智能旗舰家用投影机"
+    },
+    "iid": "g%3D102830%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D102830%2526pid%253D14390",
+    "discount_desc": "8.1折"
+},
+{
+    "gid": 104401,
+    "pid": 20272,
+    "name": "漱口洗面龙头",
+    "style" :"颜色" ,
+    "img": "https://img.youpin.mi-img.com/800_pic/0ba5b1891210a3ad00d2c6d24bc53a44.png",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/0ba5b1891210a3ad00d2c6d24bc53a44.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/2c1e5aafa1835cbe5db466956194b8d6.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/29f65127f3701d075399e89d58d2723e.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/0ba5b1891210a3ad00d2c6d24bc53a44.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/0ba5b1891210a3ad00d2c6d24bc53a44.png"
+    },
+    "start_time": 1558659600,
+    "end_time": 1558670399,
+    "market_price": 34900,
+    "flash_price": 29900,
+    "price": 29900,
+    "jump_url": "http://m.youpin.mi.com/detail?gid=104401&pid=20272",
+    "attr_ext": {
+        "custom_name": "漱口洗面龙头",
+        "price_tag": 1,
+        "consignor": "65",
+        "custom_summary": "创新漱口水柱，全方位抽洗"
+    },
+    "iid": "g%3D104401%26lt%3D09%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D104401%2526pid%253D20272",
+    "discount_desc": "8.6折"
+},
+
+{
+    "gid": 107286,
+    "name": "阳朗家用冰淇淋机",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/c869868db04595bdac7f0474669c81d2.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=107286",
+    "price_min": 16900,
+    "market_price": 16900,
+    "price": 16900,
+    "iid": "g%3D107286%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D107286",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/c869868db04595bdac7f0474669c81d2.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/729283d484df0f2434436b67c2af763e.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/c0eaa2c0c3b75385d46636a8bdd16928.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/c869868db04595bdac7f0474669c81d2.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/c869868db04595bdac7f0474669c81d2.png"
+    },
+    "tags": [
+        {
+            "label_id": 86,
+            "name": "新品",
+            "type": "sale",
+            "text": "新品",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#8dba6d",
+                "priority": 7,
+                "display_status": 1
+            },
+            "color": "#8dba6d",
+            "img_url": ""
+        }
+    ],
+    "summary": "三重冷冻系统，简单一键操作，低噪音",
+    "attr_ext": {
+        "custom_name": "阳朗家用冰淇淋机",
+        "price_tag": 0,
+        "consignor": "65",
+        "custom_summary": "一键省心，美味快捷"
+    }
+},
+{
+    "gid": 107270,
+    "name": "积木机器人 反履机甲",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/87c629f90051f2491cfdf332bb6ba66d.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=107270",
+    "price_min": 49900,
+    "market_price": 49900,
+    "price": 49900,
+    "iid": "g%3D107270%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D107270",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/87c629f90051f2491cfdf332bb6ba66d.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/f48e3e8aefbe6a96f65facb95b0c1478.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/f9d57772bf5b37bd51ce607680c368d2.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/87c629f90051f2491cfdf332bb6ba66d.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/87c629f90051f2491cfdf332bb6ba66d.png"
+    },
+    "tags": [
+        {
+            "label_id": 86,
+            "name": "新品",
+            "type": "sale",
+            "text": "新品",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#8dba6d",
+                "priority": 7,
+                "display_status": 1
+            },
+            "color": "#8dba6d",
+            "img_url": ""
+        }
+    ],
+    "summary": "【适用年龄10岁以上】创新式结构，精密机械传动，高速电机，编程智能操纵",
+    "attr_ext": {
+        "custom_name": "积木机器人 反履机甲",
+        "price_tag": 0,
+        "consignor": "65",
+        "custom_summary": "可遥控图形编程拼插机器人"
+    }
+},
+{
+    "gid": 107301,
+    "name": "全地形V底越野跑鞋",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/10556a540205690184a07dc16bcae0a7.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=107301",
+    "price_min": 45900,
+    "price": 45900,
+    "market_price": 45900,
+    "iid": "g%3D107301%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D107301",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/10556a540205690184a07dc16bcae0a7.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/b35ddf4df5b2dde555eca0b1954f8d6b.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/0bfbeedcf47bd6e37b55310c838e089a.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/10556a540205690184a07dc16bcae0a7.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/10556a540205690184a07dc16bcae0a7.png"
+    },
+    "tags": [
+        {
+            "label_id": 86,
+            "name": "新品",
+            "type": "sale",
+            "text": "新品",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#8dba6d",
+                "priority": 7,
+                "display_status": 1
+            },
+            "color": "#8dba6d",
+            "img_url": ""
+        }
+    ],
+    "summary": "支撑合脚，防滑抓地，回弹缓冲，抗菌除味",
+    "color_num": 3,
+    "attr_ext": {
+        "custom_name": "全地形V底越野跑鞋",
+        "price_tag": 0,
+        "consignor": "65",
+        "custom_summary": "支撑合脚，防滑抓地，回弹缓冲"
+    }
+},
+{
+    "gid": 107308,
+    "name": "DX厚底时尚跑鞋",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/9a19ab941ae2d10aa6d6cb3e73c83654.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=107308",
+    "price_min": 39900,
+    "price": 39900,
+    "market_price": 39900,
+    "iid": "g%3D107308%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D107308",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/9a19ab941ae2d10aa6d6cb3e73c83654.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/123504ec5514f21e256b1e72a856f9c5.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/3b19fe3f05ae8b7a7f345941cf16efdd.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/9a19ab941ae2d10aa6d6cb3e73c83654.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/9a19ab941ae2d10aa6d6cb3e73c83654.png"
+    },
+    "tags": [
+        {
+            "label_id": 86,
+            "name": "新品",
+            "type": "sale",
+            "text": "新品",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#8dba6d",
+                "priority": 7,
+                "display_status": 1
+            },
+            "color": "#8dba6d",
+            "img_url": ""
+        }
+    ],
+    "summary": "舒适耐磨，EVA缓震抗压，透气不闷脚，潮流百搭",
+    "color_num": 6,
+    "attr_ext": {
+        "custom_name": "DX厚底时尚跑鞋",
+        "price_tag": 0,
+        "consignor": "65",
+        "custom_summary": "舒适耐磨，EVA缓震抗压"
+    }
+},
+{
+    "gid": 107293,
+    "name": "三色芙蓉蜜粉 5.2g*3/盒",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/b295517d2a47c66ea62957fcb1fd9e28.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=107293",
+    "price_min": 7990,
+    "price": 7900,
+    "market_price": 7990,
+    "iid": "g%3D107293%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D107293",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/b295517d2a47c66ea62957fcb1fd9e28.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/d8268e6866386ba9c963fdd9b1146359.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/1794cc23377ea1aee5c53ae92498fa74.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/b295517d2a47c66ea62957fcb1fd9e28.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/b295517d2a47c66ea62957fcb1fd9e28.png"
+    },
+    "tags": [
+        {
+            "label_id": 86,
+            "name": "新品",
+            "type": "sale",
+            "text": "新品",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#8dba6d",
+                "priority": 7,
+                "display_status": 1
+            },
+            "color": "#8dba6d",
+            "img_url": ""
+        }
+    ],
+    "summary": "三色调和，定妆控油，清盈无痕，自然透亮",
+    "attr_ext": {
+        "custom_name": "三色芙蓉蜜粉 5.2g*3/盒",
+        "price_tag": 0,
+        "custom_summary": "三色调和，定妆控油，清盈无痕"
+    }
+},
+{
+    "gid": 107285,
+    "name": "美的微波炉",
+    "style" :"颜色" ,
+    "pic_url": "https://img.youpin.mi-img.com/800_pic/0a26c9733b75bb7b76a6eabdea0b8054.png",
+    "jump_url": "http://m.youpin.mi.com/detail?gid=107285",
+    "price_min": 299900,
+    "market_price": 299900,
+    "price": 299900,
+    "iid": "g%3D107285%26u%3Dhttp%253A%252F%252Fm.youpin.mi.com%252Fdetail%253Fgid%253D107285",
+    "imgs": {
+        "img800": "https://img.youpin.mi-img.com/800_pic/0a26c9733b75bb7b76a6eabdea0b8054.png",
+        "img_square": "https://img.youpin.mi-img.com/goods/410ede97dc5da186838d62bd5de55069.jpg",
+        "img_horizon": "https://img.youpin.mi-img.com/goods/bd42ed7b48dbafd6319e8d23bfca5cdb.jpg",
+        "img_safe_area_url": "https://img.youpin.mi-img.com/800_pic/0a26c9733b75bb7b76a6eabdea0b8054.png",
+        "img800s": "https://img.youpin.mi-img.com/800_pic/0a26c9733b75bb7b76a6eabdea0b8054.png"
+    },
+    "tags": [
+        {
+            "label_id": 86,
+            "name": "新品",
+            "type": "sale",
+            "text": "新品",
+            "ext": {},
+            "attr": {
+                "font": "default",
+                "height": 42,
+                "width": 108,
+                "bg_color": "#8dba6d",
+                "priority": 7,
+                "display_status": 1
+            },
+            "color": "#8dba6d",
+            "img_url": ""
+        }
+    ],
+    "summary": "智能变频，微波炉蒸烤箱，家用变频台式微蒸烤一体机，智能蒸立方",
+    "attr_ext": {
+        "custom_name": "美的微波炉",
+        "price_tag": 0,
+        "custom_summary": "微蒸烤一体机，百变料理"
+    }
+}]
